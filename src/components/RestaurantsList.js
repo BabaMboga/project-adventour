@@ -1,8 +1,15 @@
 import React from 'react'
 
+
 function RestaurantsList() {
   return (
-    <div>RestaurantsList</div>
+    <div>
+        <h1>THE RESTAURANTS IN NAIROBI</h1>
+        <div className='cards'>
+            
+
+        </div>
+    </div>
   )
 }
 

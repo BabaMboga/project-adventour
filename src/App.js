@@ -8,8 +8,8 @@ function App() {
   return (
     <div>
       <NavBar />
-      {/* <RestaurantsList />
-      <AccommodationList /> */}
+      <RestaurantsList />
+      <AccommodationList />
     </div>
   )
 }

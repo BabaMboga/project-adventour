@@ -137,30 +137,30 @@
         {
             "id": 7,
             "name": "Maasai Market",
-            "location": "Slip Rd, Nairobi",
-            "description": "",
-            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+            "location": "Slip Rd, Nairobi behind the Hilton hotel at the high court parking lot",
+            "description": "The open-air market sells a wide range of African antiques and has become a convergence zone for locals and tourists searchung for authentic African artisan products.",
+            "image": "https://www.discoverafricablog.com/dab_content/uploads/2022/06/IMG_9143_fqxqdl.webp"
         },
         {
             "id": 8,
-            "name": "Deuts Four Seasons HotelOpens in new window",
-            "location": "Parklands",
-            "description": "",
-            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+            "name": "Panari Ice Skating Rink",
+            "location": "located on the 2nd floor of the Panari Hotel on Mombasa Road",
+            "description": "A large rink that can accomodate 200 skaters at any give time. Kids will fall in love with this one of a kind skating rink that also provides affordable lessons to both children and adults",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.panarihotels.com%2Fhotel-nairobi%2Fentertainment.html&psig=AOvVaw31kVN-ZmDB-nhrqMa1rdKl&ust=1683114596023000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOC_8s7I1v4CFQAAAAAdAAAAABAJ"
         },
         {
             "id": 9,
-            "name": "Deuts Four Seasons HotelOpens in new window",
-            "location": "Parklands",
-            "description": "",
-            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+            "name": "Anselm's Kitengela Hot Glass Studio",
+            "location": "Located in a planetarium dome off the beaten track on the edge of the Nairobi National Park near Ongata Rongai",
+            "description": "Open 7 days a week as visitors can watch as the skilled craftsmen create blown & cast objects & make beads from recycled glass, as well as crafting changeliers among other. Enjoy an ambiance of humming creativity and bustling industry as you real, shop and soak in the natural beauty of this extraordinary place",
+            "image": "https://i.pinimg.com/564x/a8/6c/fa/a86cfa73f439ce4155249e58f14d751c.jpg"
         },
         {
             "id": 10,
-            "name": "Deuts Four Seasons HotelOpens in new window",
-            "location": "Parklands",
-            "description": "",
-            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+            "name": "Nairobi National Park",
+            "location": "Located about 7-10 km south of the Nairobi City Centre",
+            "description": "Wide open grass plains and backdrop of the city scrapers, scattered acacia bush play host to a wide variety of wildlife including the endangered black rhino and over 400 recorded species of diverse birdlife. The walking trails and picnic sites are just to die for. ",
+            "image": "https://i.pinimg.com/564x/0c/a4/5f/0ca45fe5aa56349f4542c4881cdf4e39.jpg"
         },
         {
             "id": 11,

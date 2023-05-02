@@ -1,0 +1,49 @@
+.header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    width: 100%;
+    padding: 1rem;
+    z-index: 100%
+}
+
+.logo{
+    color: ;
+    font-weight: 500;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    color: ;
+    font-size: 25px;
+}
+
+@media screen {
+    .navBar{
+        background: ;
+        position: absolute;
+        height: max-content;
+        padding: 1rem;
+        width: 100%;
+        top: 0;
+        left: 0;
+        box-shadow: 0 2px 4px grey;
+        transition: 0.5s ease;
+        z-index: 1000;
+    }
+}
+
+.navLists{
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+.navItem{
+    padding: 1rem 0;
+}

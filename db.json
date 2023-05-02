@@ -1,0 +1,95 @@
+{
+    "hotels": [
+      {
+        "id": 1,
+        "name": "Fairview Hotel",
+        "location": "Nairobi, Bishop Rd",
+        "image": "https://lh3.googleusercontent.com/gps-proxy/AE4_-5FdN46G4riV7lER05-o2VWdx_DxPKQTEb6wNqtQMdR0PO5wh0caqdw0k1ZNn1f7WpqSoeFVlwrkdlH-DppwIRh8uSTLYlGcMavRQbniClaZDgjPtF3A7E5ROkKY6yhC61Awn4MH5xMZHbDRN9LHIOtdq-3ud4AJzvTdrYeMJPUSf5_U_TTQGrmf=w296-h202-n-k-no-v1-rj"
+      },
+      {
+        "id": 2,
+        "name": "Chester Hotel & Suites",
+        "location": "Nairobi, Koinange St",
+        "image": "https://lh3.googleusercontent.com/gps-proxy/AE4_-5F694pkJvowrKLNssrg7JezYMH4qj-vpywuXFp6Lk5NA9VVYCkNwLMkJzpQK9XE-bk1WmKTyaZYpOc3m-yGHPI7R854zlTo0wTQ8os_k7iYM2SPQWyKA1r6vAXEDfMSJsAXc0j9pY5r3VKC2ZmmGnwaXyoWgHSunJY-IE3aM3z03kVMin7ipIlYow=w296-h202-n-k-no-v1-rj"
+      },
+      {
+        "id": 3,
+        "name": "ibis Stlyes Nairobi Westlands",
+        "location": "Nairobi, Westlands",
+        "image": "https://lh3.googleusercontent.com/proxy/CMLP1jCqRpcilZZsvzV38ivobKD8ltc2e6jh_o0fbWGWqBgLNoKVIZZqo6II8AMwNKYoZTRuZuXdUZ53UnlrPt-irBWJEzlSOzjHDV-lIqk8mv2D4xTjmHLkJnTdIfTkKjgDR9iWRrKFU0HzzEUak69u_DdjgA=w296-h202-n-k-no-v1-rj"
+      },
+      {
+        "id": 4,
+        "name": "The Concord Hotel & Suites",
+        "location": "Nairobi, Westlands",
+        "image": "https://lh3.googleusercontent.com/p/AF1QipORaQOnZMekcwQw7pkcoYqJHHoQi3LQJxpGEiXh=w296-h202-n-k-no-v1-rj"
+      },
+      {
+        "id": 5,
+        "name": "Green Court Hotel",
+        "location": "Nairobi, Latema Rd",
+        "image": "https://lh3.googleusercontent.com/p/AF1QipOXejPxVgLnW7GfuTaDV_4I3OLIneUHTo28cQ-Z=w296-h202-n-k-no-v1-rj"
+      },
+      {
+        "id": 6,
+        "name": "The Boma Hotel",
+        "location": "Nairobi, Bellevue",
+        "image": "https://lh3.googleusercontent.com/gps-proxy/AE4_-5Fxe6b3macaWRk60fN-UKpgBmmK1Tv4_Y-AH_MflB4spYH2jVmM0mHeOoXAEg7Cl7OiL0W-fTMHdIeqRDuQUbhBA16PNbmlu7onbkcrHHJS3m102OJLQ6SrNePjiz8RxOKR4y0mOmTsY-XkhzCzGVmAuafgJwGprFhjazZ868o7LF7JIjrsy1RfCg=w296-h202-n-k-no-v1-rj"
+      },
+      {
+        "id": 7,
+        "name": "Bamboo Suites",
+        "location": "Nairobi, Upper Hill",
+        "image": "https://lh3.googleusercontent.com/proxy/MGfDJJl_4mce8KrYnoL2c-_Ku4IwAa-HXNVXbJY6N5xess_Hk3wcqo7veR2ja2HMXNVe0L9_vzS7waWxlQIZcd1vvkMqQvSA42WGwKNRBCAFLVNy6nMu9Upj4KBFIxaZwUpoazJmF75D5B7JnUde-2csIUWLtRQ=w296-h202-n-k-no-v1-rj"
+      },
+      {
+        "id": 8,
+        "name": "La Maison Royale Hotel",
+        "location": "Nairobi, Mogotio Rd",
+        "image": "https://lh3.googleusercontent.com/gps-proxy/AE4_-5E-pLbOaccN5p4LDwe1oPQ3zgiWq09ZeT4qWei3xYKK556pLbTgWmPIvzDpPMypzTswW6Fvf8HIXXB1-ae3yKwRhXwECBE6h4_0G9oyt29ZYAD9tjuTPdOs7LUKGYPMrZin9KDhh_XSwj2tL5Kt77zaKPLbBmjm_88V88ZbLRksdUbAMnTPDQUzrQ=w296-h202-n-k-no-v1-rj."
+      },
+      {
+        "id": 9,
+        "name": "Four Points",
+        "location": "Nairobi, Argwings Kodhek Road",
+        "image": "https://lh3.googleusercontent.com/p/AF1QipMzLBqkqT7MC5BuFl17Q24s9pMysDfadGA32W0A=w296-h202-n-k-no-v1-rj"
+      },
+      {
+        "id": 10,
+        "name": "Glam Hotel",
+        "location": "Nairobi, Westlands",
+        "image": "https://lh3.googleusercontent.com/p/AF1QipPoLZKdFTXy6F-fN_mqMlHRKY6HR9huAu9P46_f=w296-h202-n-k-no-v1-rj"
+      },
+      {
+        "id": 11,
+        "name": "Kozi Suites",
+        "location": "Nairobi",
+        "image": "https://lh3.googleusercontent.com/proxy/uixwKGkxubS0dCe2mPCKKgLBjOUsy1J7gh7rwnH0_ylM61m36aJDELWdatiQPTyKDWeB8abpO69X9eN5rCNGJF14vxficZXsC2CvbV16gPlJxNFoE18isudUJlAu3POixiBW6npgwoCC0C3gTSVoMah-MTBXpA=w296-h202-n-k-no-v1-rj"
+      },
+      {
+        "id": 12,
+        "name": "Swiss Lenana Mount Hotel",
+        "location": "Nairobi, Raplh Bunche Rd",
+        "image": "https://lh3.googleusercontent.com/gps-proxy/AE4_-5Hbam8q-tGGp3ZkasTFHTN7k6kLiTgRIxKp-YYNvtL9D2bogdAtRWnK6FQU8YRe1v1BpzBOB6wkA3gOz9y4YnV8mhTTWK0147xgCzj8ZiYpQx2_bcGiQoLhOSlZ96s89J2ETLBUUscG3z4GsBeWPomSHuEYEXyh-oWevVtlzeekoDKpanf4rZc=w296-h202-n-k-no-v1-rj"
+      },
+      {
+        "id": 13,
+        "name": "Edmor Suites",
+        "location": "Nairobi, Riverside",
+        "image": "https://lh3.googleusercontent.com/gps-proxy/AE4_-5HjxAtEsfshrOo8O2xC4Vn4FAZUdkK3-nJORZAB9NPQq-SB5E_Uoo8x-m2R6_ySsGaBkEQAEvuEzn1audBAhFHtdP4QLBY1YY1CLvE8Tht-e4Whkciv5DrNdp6JzatKIHmrlFzX-2XPuxDJ49mEwG0MH5TYfmaA5pAo2OXURVMZ_Lp01Lo7TZLaJQ=w296-h202-n-k-no-v1-rj"
+      },
+      {
+        "id": 14,
+        "name": "Eka Hotel",
+        "location": "Nairobi, Mombasa Rd",
+        "image": "https://lh3.googleusercontent.com/p/AF1QipMvt6jCcdCJvkZ0-utFzWUR_-9We57b1ksyiDAU=w296-h202-n-k-no-v1-rj"
+      },
+      {
+        "id": 15,
+        "name": "Golden Tulip",
+        "location": "Nairobi, Muthithi Rd",
+        "image": "https://lh3.googleusercontent.com/proxy/ky-cRn9fTnWQ0OOaPH4b9qJsHxVk9vbREourUDQ3YMv80-2EINUC17qsBBEoYi4oIrS1QqjwfzIJv1GFZP3GG4t7W8g4uUyqCBQtTQmawF37Fle5emykxI_U1wCJzMlibPrbriveayLxdWr9IoqEEhSp0RtLX3E=w296-h202-n-k-no-v1-rj"
+      }
+    ]
+}
+  

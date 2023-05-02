@@ -1,11 +1,15 @@
-
-
 import React from 'react'
+import AccommodationList from './AccomodationsList';
+import AccommodationItems from './AccomodationsItem';
+import RestaurantsList from './RestaurantsList'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <RestaurantsList/>
+      <AccommodationList/>
+    </div>
   )
 }
 
-export default Home;
+export default Home

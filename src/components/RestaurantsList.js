@@ -77,4 +77,4 @@ function RestaurantsList() {
   )
 }
 
-export default RestaurantsList
+export default RestaurantsList;

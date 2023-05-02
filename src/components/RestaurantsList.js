@@ -1,0 +1,15 @@
+import React from 'react'
+import RestaurantsItem from './RestaurantsItem';
+
+const RestaurantsList = ({ restaurants }) => {
+    return (
+      <div className="Restaurants-list">
+        {restaurants.map((restaurant) => (
+          <RestaurantsItem key={restaurant.id} restaurant={restaurant} />
+        ))}
+      </div>
+    );
+  };
+  
+
+export default RestaurantsList;

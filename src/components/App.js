@@ -12,13 +12,11 @@ function App() {
   return (
     <div>     
      <h1>My react Project</h1>
-     {/* <NavBar /> */}
-     {/* <NavBar.css /> */}
-     <Accommodation />
+    <NavBar />
+    <Accommodation />
      {/* <About /> */}
      {/* <DestinationsList /> */}
      <RestaurantsList />
-
     </div>
   );
 }

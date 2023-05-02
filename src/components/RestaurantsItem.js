@@ -1,6 +1,6 @@
 import React from 'react';
 
-const RestaurantItem = ({ restaurant }) => {
+const RestaurantItem = () => {
   return (
     <div className="restaurant-item">
       <img src={restaurant.image} alt={restaurant.name} />

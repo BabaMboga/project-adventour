@@ -1,7 +1,7 @@
 import React from 'react'
 import RestaurantsItem from './RestaurantsItem';
 
-const RestaurantsList = ({ restaurants }) => {
+const RestaurantsList = () => {
     return (
       <div className="Restaurants-list">
         {restaurants.map((restaurant) => (

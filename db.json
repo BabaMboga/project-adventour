@@ -179,58 +179,58 @@
         {
             "id": 13,
             "name": "Giraffe Center",
-            "location": "Located in Lang",
-            "description": "",
-            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+            "location": "Located in Langata, Duma Rd approximately 20kilometres from the centre of Nairobi.",
+            "description": "The place plays a vital role in conserving the critically endangered Rothschild giraffe. It is quite a place to meet the tallest mammal which serve as a main attraction for both school children and visitors who get to feed the magnificent creatures.",
+            "image": "https://i.pinimg.com/564x/a5/3a/08/a53a08ebf1cbcab6fc26f8966f2f1838.jpg"
         },
         {
             "id": 14,
-            "name": "Elephant Orphanage",
-            "location": "Parklands",
-            "description": "",
-            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+            "name": "Kenyatta International Conference Centre",
+            "location": "Harambee Avenue City Square Nairobi",
+            "description": "Feel top of the world at KICC, a place for people that love to stargaze and watch the sun sink down the western horizon. You will get the best bird's eye view of Nairobi in all her glory. Only when you are on the rooftop do you realise just how big Nairobi is.",
+            "image": "https://i.pinimg.com/564x/99/62/c4/9962c49e661e185afc876c9c78f07013.jpg"
         },
         {
             "id": 15,
             "name": "David Sheldrick Wildlife Trust",
-            "location": "Parklands",
-            "description": "",
-            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+            "location": "The Nairobi Nursery, is in Nairobi National Park (KWS Central Workshop Gate on Magadi Road).",
+            "description": "They are best known for their work on protecting elephants while operating the most successful orphan elephant rescue and rehabilitation program in the world. They also dub in the rescue and raising of rhinos and so much more.",
+            "image": "https://i.pinimg.com/564x/d3/71/9c/d3719ccc6e3b73d2a3cf1eaaa69d8459.jpg"
         },
         {
             "id": 16,
             "name": "Maasai Mara National Reserve",
-            "location": "Parklands",
-            "description": "",
-            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+            "location": "It is located 224km away from the capital Nairobi in Narok County ",
+            "description": "It is one of the largest game reserves in Kenya, widely considered to be Africa's greatest wildlife reserve. Contiguous with the plains of the Serengeti, the Mara is home to a breathtaking array in life commonly known for the 'big five' ",
+            "image": "https://i.pinimg.com/564x/e6/1f/43/e61f436045a42060f1e984224e57c604.jpg"
         },
         {
             "id": 17,
             "name": "Karura Forest",
-            "location": "Parklands",
-            "description": "",
-            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+            "location": "Located in the nothern part of Nairobi city. The main entrance is on Limuru Road, after the Belgian Embassy.",
+            "description": "The Karura Forest Reserve is an urban upland forest on the outskirts of Nairobi, the capital of Kenya. This remarkable geographical location and natural resource is one of the largest gazetted forests in the world fully within a city limits.",
+            "image": "https://i.pinimg.com/564x/e3/41/59/e34159e03e9d0fcf625b705e52b827d5.jpg"
         },
         {
             "id": 18,
             "name": "Oloolua Nature Trail",
-            "location": "Parklands",
-            "description": "",
-            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+            "location": "Oloolau Forest, Karen Rd, Nairobi",
+            "description": "The Oloolua forest is the home to the Institute of Primate Researcg has an established 5km trail that provides an oasis of tranquility that invites a barrage of visitiors. It has all the elements of a fantasy that include but are not limited to a 20 foot waterfall, a cave and a picnic site overlooking a river.",
+            "image": "https://i.pinimg.com/564x/4d/30/d3/4d30d35a3378ad41b46e56b9c9feba2f.jpg"
         },
         {
             "id": 19,
-            "name": "Ostrich Farm",
-            "location": "Parklands",
-            "description": "",
-            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+            "name": "Maasai Ostrich Farm & Resort",
+            "location": "It is located 45km from Nairobi on the Athi River/Kitengela plains on the outskirts of a town called Kitengela.",
+            "description": "It is East Africa's largest commercial hub for ostrich farming. It is quite the opportunity to get personal with ostriches and even get an opportunity to ride one at an affordable price. One canot forget the quiet garden setting and the pool after an afternoon of touring the entire site. ",
+            "image": "https://i.pinimg.com/564x/4c/3f/e4/4c3fe47e50e8b32ea1446e196c6f32c1.jpg"
         },
         {
             "id": 20,
             "name": "Mamba Village",
-            "location": "Parklands",
-            "description": "",
-            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+            "location": "North Langata, Nairobi",
+            "description": "It is the largest crocodile farm in Africa and is home to over 1000 crocodiles both young and mature. The botanical garden sets the mood just before interacting with one of the most interesting animals in the animal kingdom in their natural habitat. This experience is breathtaking as it gives you a one on one interaction with the wild. It is also home to BIG DADD, the oldest crocodile.",
+            "image": "https://i.pinimg.com/564x/5d/3a/66/5d3a6646ce05b3a72bfa5ab4dda26f02.jpg"
         }
 
     ],

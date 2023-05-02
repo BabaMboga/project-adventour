@@ -1,11 +1,11 @@
 import React from "react";
-import AccommodationsList from "./AccomodationsList";
+import RestaurantsList from "./RestaurantsList";
 
 
 function App() {
   return (
     <div>     
-      <AccommodationsList />
+      <RestaurantsList />
     </div>
   );
 }

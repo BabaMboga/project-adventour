@@ -4,7 +4,7 @@ import RestaurantsList from './components/RestaurantsList'
 import './App.css'
 import NavBar from './components/NavBar'
 
-function Home() {
+function App() {
   return (
     <div>
       <NavBar />
@@ -14,4 +14,4 @@ function Home() {
   )
 }
 
-export default Home
+export default App;

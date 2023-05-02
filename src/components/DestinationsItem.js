@@ -6,7 +6,7 @@ function DestinationsItem({image, name, location, description}) {
         <img src={image} alt={name}></img>
         <h3>{name}</h3>
         <small>{location}</small>
-        <p>{description}</p>
+        <p id='destination-paragraph'>{description}</p>
     </div>
   )
 }

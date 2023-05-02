@@ -1,5 +1,5 @@
 import React from 'react'
-import RestaurantsItem from './RestaurantsItem';
+// import RestaurantsItem from './RestaurantsItem';
 
 const RestaurantsList = () => {
     return (

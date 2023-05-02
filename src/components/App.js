@@ -1,11 +1,11 @@
 import React from "react";
-import RestaurantsList from "./RestaurantsList";
+
 
 
 function App() {
   return (
     <div>     
-      <RestaurantsList />
+     <h1>React</h1>
     </div>
   );
 }

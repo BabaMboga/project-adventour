@@ -10,7 +10,7 @@
 }
 
 .logo{
-    color: ;
+    color: whitesmoke;
     font-weight: 500;
     cursor: pointer;
     align-items: center;
@@ -18,13 +18,13 @@
 }
 
 .icon{
-    color: ;
+    color: brown;
     font-size: 25px;
 }
 
 @media screen {
     .navBar{
-        background: ;
+        background: grey;
         position: absolute;
         height: max-content;
         padding: 1rem;
@@ -46,4 +46,15 @@
 
 .navItem{
     padding: 1rem 0;
+}
+
+.navLink{
+    color: grey;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.navLink:hover{
+    color: brown;
+
 }

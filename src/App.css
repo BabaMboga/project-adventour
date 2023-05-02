@@ -42,7 +42,7 @@ li{
 
 .btn{
   padding: 4rem 1.5rem;
-  background: ;
+  background: brown;
   border: none;
   outline: none;
   border-radius: 3rem;
@@ -50,12 +50,12 @@ li{
 }
 
 .btn a{
-  color: ;
+  color: whitesmoke;
   font-weight: 500;
 }
 
 .btn:hover a{
-  color: ;
+  color: whitesmoke;
 }
 
 .sectionIntro{
@@ -65,14 +65,14 @@ li{
 }
 
 .sectionIntro .sectionTitle{
-  color: ;
+  color: black;
   line-height: 1.5rem;
   padding-bottom: 0.5rem;
 }
 
 .sectionIntro p{
   font-size: 13px;
-  color: ;
+  color: grey;
   font-weight: 500;
 }
 

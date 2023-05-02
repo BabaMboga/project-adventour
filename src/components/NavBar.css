@@ -1,4 +1,4 @@
-.header{
+.navBarSection .header{
     position: fixed;
     display: flex;
     align-items: center;
@@ -9,7 +9,7 @@
     z-index: 100%
 }
 
-.logo{
+.navBarSection .logoDiv .logo{
     color: whitesmoke;
     font-weight: 500;
     cursor: pointer;
@@ -17,44 +17,48 @@
     justify-content: center;
 }
 
-.icon{
-    color: brown;
+.navBarSection .logoDiv .icon{
+    width:8rem;
+    height: 6rem;
     font-size: 25px;
+    border-radius: 12px;
 }
 
 @media screen {
     .navBar{
-        background: grey;
+        background: white;
         position: absolute;
         height: max-content;
-        padding: 1rem;
+        padding: 2rem;
         width: 100%;
         top: 0;
         left: 0;
         box-shadow: 0 2px 4px grey;
         transition: 0.5s ease;
-        z-index: 1000;
+        z-index: -1000;
     }
-}
+    .navLists{
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+    }
 
-.navLists{
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    margin: auto;
-}
+    .navLists .navItem{
+        padding: 1rem 0;
+    }
 
-.navItem{
-    padding: 1rem 0;
-}
+    .navLists .navItem .navLink{
+        padding: 40px;
+        color: black;
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
 
-.navLink{
-    color: grey;
-    font-size: 0.9rem;
-    font-weight: 600;
-}
+    .navLists .navItem .navLink:hover{
+        color: rgb(101, 67, 33);
+    }
 
-.navLink:hover{
-    color: brown;
-
+    /* .navLists .navItem .navLink:active{
+        color: rgb(101, 67, 33);
+    } */
 }

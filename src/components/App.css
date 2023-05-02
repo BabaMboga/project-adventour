@@ -76,10 +76,10 @@ li{
   font-weight: 500;
 }
 
-img,video{
+/* img,video{
   width: 100%;
   height: auto;
-}
+} */
 
 input{
   font-size: 100%;

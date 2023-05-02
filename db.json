@@ -1,95 +1,237 @@
 {
-    "hotels": [
-      {
-        "id": 1,
-        "name": "Fairview Hotel",
-        "location": "Nairobi, Bishop Rd",
-        "image": "https://lh3.googleusercontent.com/gps-proxy/AE4_-5FdN46G4riV7lER05-o2VWdx_DxPKQTEb6wNqtQMdR0PO5wh0caqdw0k1ZNn1f7WpqSoeFVlwrkdlH-DppwIRh8uSTLYlGcMavRQbniClaZDgjPtF3A7E5ROkKY6yhC61Awn4MH5xMZHbDRN9LHIOtdq-3ud4AJzvTdrYeMJPUSf5_U_TTQGrmf=w296-h202-n-k-no-v1-rj"
-      },
-      {
-        "id": 2,
-        "name": "Chester Hotel & Suites",
-        "location": "Nairobi, Koinange St",
-        "image": "https://lh3.googleusercontent.com/gps-proxy/AE4_-5F694pkJvowrKLNssrg7JezYMH4qj-vpywuXFp6Lk5NA9VVYCkNwLMkJzpQK9XE-bk1WmKTyaZYpOc3m-yGHPI7R854zlTo0wTQ8os_k7iYM2SPQWyKA1r6vAXEDfMSJsAXc0j9pY5r3VKC2ZmmGnwaXyoWgHSunJY-IE3aM3z03kVMin7ipIlYow=w296-h202-n-k-no-v1-rj"
-      },
-      {
-        "id": 3,
-        "name": "ibis Stlyes Nairobi Westlands",
-        "location": "Nairobi, Westlands",
-        "image": "https://lh3.googleusercontent.com/proxy/CMLP1jCqRpcilZZsvzV38ivobKD8ltc2e6jh_o0fbWGWqBgLNoKVIZZqo6II8AMwNKYoZTRuZuXdUZ53UnlrPt-irBWJEzlSOzjHDV-lIqk8mv2D4xTjmHLkJnTdIfTkKjgDR9iWRrKFU0HzzEUak69u_DdjgA=w296-h202-n-k-no-v1-rj"
-      },
-      {
-        "id": 4,
-        "name": "The Concord Hotel & Suites",
-        "location": "Nairobi, Westlands",
-        "image": "https://lh3.googleusercontent.com/p/AF1QipORaQOnZMekcwQw7pkcoYqJHHoQi3LQJxpGEiXh=w296-h202-n-k-no-v1-rj"
-      },
-      {
-        "id": 5,
-        "name": "Green Court Hotel",
-        "location": "Nairobi, Latema Rd",
-        "image": "https://lh3.googleusercontent.com/p/AF1QipOXejPxVgLnW7GfuTaDV_4I3OLIneUHTo28cQ-Z=w296-h202-n-k-no-v1-rj"
-      },
-      {
-        "id": 6,
-        "name": "The Boma Hotel",
-        "location": "Nairobi, Bellevue",
-        "image": "https://lh3.googleusercontent.com/gps-proxy/AE4_-5Fxe6b3macaWRk60fN-UKpgBmmK1Tv4_Y-AH_MflB4spYH2jVmM0mHeOoXAEg7Cl7OiL0W-fTMHdIeqRDuQUbhBA16PNbmlu7onbkcrHHJS3m102OJLQ6SrNePjiz8RxOKR4y0mOmTsY-XkhzCzGVmAuafgJwGprFhjazZ868o7LF7JIjrsy1RfCg=w296-h202-n-k-no-v1-rj"
-      },
-      {
-        "id": 7,
-        "name": "Bamboo Suites",
-        "location": "Nairobi, Upper Hill",
-        "image": "https://lh3.googleusercontent.com/proxy/MGfDJJl_4mce8KrYnoL2c-_Ku4IwAa-HXNVXbJY6N5xess_Hk3wcqo7veR2ja2HMXNVe0L9_vzS7waWxlQIZcd1vvkMqQvSA42WGwKNRBCAFLVNy6nMu9Upj4KBFIxaZwUpoazJmF75D5B7JnUde-2csIUWLtRQ=w296-h202-n-k-no-v1-rj"
-      },
-      {
-        "id": 8,
-        "name": "La Maison Royale Hotel",
-        "location": "Nairobi, Mogotio Rd",
-        "image": "https://lh3.googleusercontent.com/gps-proxy/AE4_-5E-pLbOaccN5p4LDwe1oPQ3zgiWq09ZeT4qWei3xYKK556pLbTgWmPIvzDpPMypzTswW6Fvf8HIXXB1-ae3yKwRhXwECBE6h4_0G9oyt29ZYAD9tjuTPdOs7LUKGYPMrZin9KDhh_XSwj2tL5Kt77zaKPLbBmjm_88V88ZbLRksdUbAMnTPDQUzrQ=w296-h202-n-k-no-v1-rj."
-      },
-      {
-        "id": 9,
-        "name": "Four Points",
-        "location": "Nairobi, Argwings Kodhek Road",
-        "image": "https://lh3.googleusercontent.com/p/AF1QipMzLBqkqT7MC5BuFl17Q24s9pMysDfadGA32W0A=w296-h202-n-k-no-v1-rj"
-      },
-      {
-        "id": 10,
-        "name": "Glam Hotel",
-        "location": "Nairobi, Westlands",
-        "image": "https://lh3.googleusercontent.com/p/AF1QipPoLZKdFTXy6F-fN_mqMlHRKY6HR9huAu9P46_f=w296-h202-n-k-no-v1-rj"
-      },
-      {
-        "id": 11,
-        "name": "Kozi Suites",
-        "location": "Nairobi",
-        "image": "https://lh3.googleusercontent.com/proxy/uixwKGkxubS0dCe2mPCKKgLBjOUsy1J7gh7rwnH0_ylM61m36aJDELWdatiQPTyKDWeB8abpO69X9eN5rCNGJF14vxficZXsC2CvbV16gPlJxNFoE18isudUJlAu3POixiBW6npgwoCC0C3gTSVoMah-MTBXpA=w296-h202-n-k-no-v1-rj"
-      },
-      {
-        "id": 12,
-        "name": "Swiss Lenana Mount Hotel",
-        "location": "Nairobi, Raplh Bunche Rd",
-        "image": "https://lh3.googleusercontent.com/gps-proxy/AE4_-5Hbam8q-tGGp3ZkasTFHTN7k6kLiTgRIxKp-YYNvtL9D2bogdAtRWnK6FQU8YRe1v1BpzBOB6wkA3gOz9y4YnV8mhTTWK0147xgCzj8ZiYpQx2_bcGiQoLhOSlZ96s89J2ETLBUUscG3z4GsBeWPomSHuEYEXyh-oWevVtlzeekoDKpanf4rZc=w296-h202-n-k-no-v1-rj"
-      },
-      {
-        "id": 13,
-        "name": "Edmor Suites",
-        "location": "Nairobi, Riverside",
-        "image": "https://lh3.googleusercontent.com/gps-proxy/AE4_-5HjxAtEsfshrOo8O2xC4Vn4FAZUdkK3-nJORZAB9NPQq-SB5E_Uoo8x-m2R6_ySsGaBkEQAEvuEzn1audBAhFHtdP4QLBY1YY1CLvE8Tht-e4Whkciv5DrNdp6JzatKIHmrlFzX-2XPuxDJ49mEwG0MH5TYfmaA5pAo2OXURVMZ_Lp01Lo7TZLaJQ=w296-h202-n-k-no-v1-rj"
-      },
-      {
-        "id": 14,
-        "name": "Eka Hotel",
-        "location": "Nairobi, Mombasa Rd",
-        "image": "https://lh3.googleusercontent.com/p/AF1QipMvt6jCcdCJvkZ0-utFzWUR_-9We57b1ksyiDAU=w296-h202-n-k-no-v1-rj"
-      },
-      {
-        "id": 15,
-        "name": "Golden Tulip",
-        "location": "Nairobi, Muthithi Rd",
-        "image": "https://lh3.googleusercontent.com/proxy/ky-cRn9fTnWQ0OOaPH4b9qJsHxVk9vbREourUDQ3YMv80-2EINUC17qsBBEoYi4oIrS1QqjwfzIJv1GFZP3GG4t7W8g4uUyqCBQtTQmawF37Fle5emykxI_U1wCJzMlibPrbriveayLxdWr9IoqEEhSp0RtLX3E=w296-h202-n-k-no-v1-rj"
-      }
+    "restaurants": [
+          {
+            "id": 1,
+            "name": "Crowne Plaza Nairobi Airport, an IHG Hotel",
+            "location": "Airport",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/243333654.webp?k=0ef81e94cca84038e6db41038bb5f1942b7c7f529a9449f841322ed139381410&o=&s=1"
+          },
+          {
+            "id": 2,
+            "name": "Ibis Styles",
+            "location": "Westlands",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/201386458.webp?k=e7ff6d70d51eef28f0e9f2387effd79df9756df5c290a0dc29d23d275a79ea9e&o=&s=1"
+          },
+          {
+            "id": 3,
+            "name": "The Marvel House",
+            "location": "National Museum",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/314234863.webp?k=a5c15be264b22e3ed81e04f0cb97cf69989a0d3148e81d2d7f0381a833a38a65&o=&s=1"
+          },
+          {
+            "id": 4,
+            "name": "Natural Oak ApartmentsOpens in new window",
+            "location": "Kilimani",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/33151317.webp?k=c93fd6a1e2c763e280aa321ce67cb244499109bc3dbeee9e1bea5b18f32ab1f9&o=&s=1"
+          },
+          {
+            "id": 5,
+            "name": "After 40 Hotel",
+            "location": "CBD",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/433508212.webp?k=350760ea584d884113a03fad8c2c77ec4f55711ef85616f59deb626589de1c2e&o=&s=1"
+          },
+          {
+            "id": 6,
+            "name": "Trademark Hotel",
+            "location": "Gigiri",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/309263263.webp?k=921ac0329d260cfb82ed6ffcb7a611b6fc3f3c5f4d6bb423da8831d5062433e4&o=&s=1"
+          },
+          {
+            "id": 7,
+            "name": "The Panari Hotel",
+            "location": "Mombasa Road",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/73775602.webp?k=b7428692ae6d05159ff9032648c9f7e9a7391d534b62a7fc2bf0f5af91cd0828&o=&s=1"
+          },
+          {
+            "id": 8,
+            "name": "Kandiz Exquisite",
+            "location": "Lavington",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/143909683.webp?k=773aef6766dcd561d841e9648a3a83e49f4f669df1f56ce181c5f7024b6d387e&o=&s=1"
+          },
+          {
+            "id": 9,
+            "name": "Villa Rosa Kempinski",
+            "location": "Westlands",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/449471904.webp?k=dae42b326f206378fc3030c9c2d17e59b441eb65bc973d9eec26a953773a0f55&o=&s=1"
+          },
+          {
+            "id": 10,
+            "name": "Melili HotelOpens in new window",
+            "location": "Westlands",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/68878671.webp?k=a64e90f752c963384d1a380591a42a882cde7975a08c3bc5917a57920fb031eb&o=&s=1"
+          },
+          {
+            "id": 11,
+            "name": "Hilton Garden",
+            "location": "Airport",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/130653877.webp?k=8d8867fb83f9181fe0d418b548f76f6670e3f2b7e35fd002fad05e54d2684f0f&o=&s=1"
+          },
+          {
+            "id": 12,
+            "name": "Kahama Hotel",
+            "location": "City Centre",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/92118133.webp?k=6a12fb048d434490732d732ad9328eba427cce97a17111b0e94c0f1e770e5122&o=&s=1"
+          },
+          {
+            "id": 13,
+            "name": "Jatiq Homes",
+            "location": "KICC",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/449547672.webp?k=cb0e3a610215d06d774a0d26e33ea6762ea6aef011c50f700ed053c44cdd4d08&o=&s=1"
+          },
+          {
+            "id": 14,
+            "name": "Lenana Suites",
+            "location": "Lenana",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/407806039.webp?k=c25ae7152a2ee3e242ceabcc187db6381ebd986594caa0dd5d10a5eb0fffc3e5&o=&s=1"
+          },
+          {
+            "id": 15,
+            "name": "Deuts Four Seasons HotelOpens in new window",
+            "location": "Parklands",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+          }
+        ],
+    "destinations": [
+        {
+            "id": 1,
+            "name": "Nairobi Railway Museum",
+            "location": "Adjacent to Nairobi railway station",
+            "description": "Opened in 1971 it contains exhibits from the defunct East African Railways and also houses a local art centre for gifted youth to showcase their talent.",
+            "image": "https://lh3.googleusercontent.com/p/AF1QipPaba65hw-rMg4iRPsuqgZ845U6FVTaTJiwAPGE=s1360-w1360-h1020"
+        },
+        {
+            "id": 2,
+            "name": "Nairobi Butterfly Sanctuary",
+            "location": "Karen, Nairobi on the Dagoretti road next to the Karen roundabout",
+            "description": "It is the largest center after the British Museum of Natural History. It boasts more than 1000 species of butterflies.",
+            "image": "https://live.staticflickr.com/3199/3073306497_dc60143b24_z.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Bomas of Kenya",
+            "location": "Langata, Nairobi",
+            "description": "Experience the rich diversity of Kenya's culture  via daily cultural performances and a variety of traditional artifacts and structures.",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fkenyaholidays.travel%2Fthe-bomas-of-kenya%2F&psig=AOvVaw2bhYSCEJUWSqx2WOFDJK5i&ust=1683109961769000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCMj4sbC31v4CFQAAAAAdAAAAABAD"
+        },
+        {
+            "id": 4,
+            "name": "Mairobi Gallery",
+            "location": "Located at Kenyatta Avenue and Uhuru Highway roundabout next to Nyayo house",
+            "description": "A fantastic little museum located at the heart of Nairobi that is dedicated to showcasing African art in its full beauty.",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmuseums.or.ke%2Fnairobi-gallery%2F&psig=AOvVaw0wltPtWuvCI_bmRtLYHjle&ust=1683110190218000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCMjBnZ641v4CFQAAAAAdAAAAABAD"
+        },
+        {
+            "id": 5,
+            "name": "Ngong Hills",
+            "location": "Located in Ngong, southwest near Nairobi",
+            "description": "They are peaks in a ridge along the Great Rift Valley. Very ideal place for enjoying the outdoors and hiking either alone or with a group of friends. Enjoy birdwatching, picnicking, hiking and ziplining among other fun activities.",
+            "image": "https://i.pinimg.com/564x/66/83/96/668396de82b6d07898e034d8af32b862.jpg"
+        },
+        {
+            "id": 6,
+            "name": "The Lord Erroll",
+            "location": "located within 20 to 25 minutes drive away from the CBD, at Runda, Ruaka Road",
+            "description": "Fine dining experiences in Nairobi do not come any better than this with a theme of the early 1900s, there is nothing not to love.",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lord-erroll.com%2Fgallery&psig=AOvVaw2ahEUQlYlXmbVG5HGYDaJq&ust=1683110927238000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLCkqvm61v4CFQAAAAAdAAAAABAE"
+        },
+        {
+            "id": 7,
+            "name": "Maasai Market",
+            "location": "Slip Rd, Nairobi behind the Hilton hotel at the high court parking lot",
+            "description": "The open-air market sells a wide range of African antiques and has become a convergence zone for locals and tourists searchung for authentic African artisan products.",
+            "image": "https://www.discoverafricablog.com/dab_content/uploads/2022/06/IMG_9143_fqxqdl.webp"
+        },
+        {
+            "id": 8,
+            "name": "Panari Ice Skating Rink",
+            "location": "located on the 2nd floor of the Panari Hotel on Mombasa Road",
+            "description": "A large rink that can accomodate 200 skaters at any give time. Kids will fall in love with this one of a kind skating rink that also provides affordable lessons to both children and adults",
+            "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.panarihotels.com%2Fhotel-nairobi%2Fentertainment.html&psig=AOvVaw31kVN-ZmDB-nhrqMa1rdKl&ust=1683114596023000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOC_8s7I1v4CFQAAAAAdAAAAABAJ"
+        },
+        {
+            "id": 9,
+            "name": "Anselm's Kitengela Hot Glass Studio",
+            "location": "Located in a planetarium dome off the beaten track on the edge of the Nairobi National Park near Ongata Rongai",
+            "description": "Open 7 days a week as visitors can watch as the skilled craftsmen create blown & cast objects & make beads from recycled glass, as well as crafting changeliers among other. Enjoy an ambiance of humming creativity and bustling industry as you real, shop and soak in the natural beauty of this extraordinary place",
+            "image": "https://i.pinimg.com/564x/a8/6c/fa/a86cfa73f439ce4155249e58f14d751c.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Nairobi National Park",
+            "location": "Located about 7-10 km south of the Nairobi City Centre",
+            "description": "Wide open grass plains and backdrop of the city scrapers, scattered acacia bush play host to a wide variety of wildlife including the endangered black rhino and over 400 recorded species of diverse birdlife. The walking trails and picnic sites are just to die for. ",
+            "image": "https://i.pinimg.com/564x/0c/a4/5f/0ca45fe5aa56349f4542c4881cdf4e39.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Deuts Four Seasons HotelOpens in new window",
+            "location": "Parklands",
+            "description": "",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+        },
+        {
+            "id": 12,
+            "name": "Deuts Four Seasons HotelOpens in new window",
+            "location": "Parklands",
+            "description": "",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+        },
+        {
+            "id": 13,
+            "name": "Deuts Four Seasons HotelOpens in new window",
+            "location": "Parklands",
+            "description": "",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+        },
+        {
+            "id": 14,
+            "name": "Deuts Four Seasons HotelOpens in new window",
+            "location": "Parklands",
+            "description": "",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+        },
+        {
+            "id": 15,
+            "name": "Deuts Four Seasons HotelOpens in new window",
+            "location": "Parklands",
+            "description": "",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+        },
+        {
+            "id": 16,
+            "name": "Deuts Four Seasons HotelOpens in new window",
+            "location": "Parklands",
+            "description": "",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+        },
+        {
+            "id": 17,
+            "name": "Deuts Four Seasons HotelOpens in new window",
+            "location": "Parklands",
+            "description": "",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+        },
+        {
+            "id": 18,
+            "name": "Deuts Four Seasons HotelOpens in new window",
+            "location": "Parklands",
+            "description": "",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+        },
+        {
+            "id": 19,
+            "name": "Deuts Four Seasons HotelOpens in new window",
+            "location": "Parklands",
+            "description": "",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+        },
+        {
+            "id": 20,
+            "name": "Deuts Four Seasons HotelOpens in new window",
+            "location": "Parklands",
+            "description": "",
+            "image": "https://cf.bstatic.com/xdata/images/hotel/square200/268074450.webp?k=31d9e391a0da308ba92d239366023029429928fe8df3e97edd7aa4614126f00e&o=&s=1"
+        }
+
     ]
-}
-  
+    }

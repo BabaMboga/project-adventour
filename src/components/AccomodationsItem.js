@@ -5,7 +5,7 @@ const AccommodationItems = ({ hotel }) => {
     <div>
       <h2>{hotel.name}</h2>
       <p>Location: {hotel.location}</p>
-      <img src={hotel.image} alt={hotel.name} style={{ width: "200px" }} />
+      <img src={hotel.image} alt={hotel.name} />
     </div>
   );
 };

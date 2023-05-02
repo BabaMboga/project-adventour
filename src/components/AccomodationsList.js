@@ -1,19 +1,22 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import AccommodationItems from "./AccommodationItems";
 
 const AccommodationList = () => {
-  const [hotels, setHotels] = useState([]);
-
-  useEffect(() => {
-    fetch("/db.json") // Assuming the db.json file is in the public folder
-      .then((response) => response.json())
-      .then((data) => {
-        setHotels(data.hotels);
-      })
-      .catch((error) => {
-        console.error("Error fetching hotel data:", error);
-      });
-  }, []);
+  const hotels = [
+    {
+      id: 1,
+      name: "Hotel 1",
+      location: "Location 1",
+      image: "hotel1.jpg",
+    },
+    // Add data for other hotels here
+    {
+      id: 15,
+      name: "Hotel 15",
+      location: "Location 15",
+      image: "hotel15.jpg",
+    },
+  ];
 
   return (
     <div>

@@ -1,15 +1,23 @@
-import React from 'react'
-import AccommodationList from './AccomodationsList';
-import AccommodationItems from './AccomodationsItem';
-import RestaurantsList from './RestaurantsList'
+import React from "react";
+import { Provider } from "react-redux";
+import store from "./store";
+import AccommodationList from "./components/AccommodationList";
+import AccommodationDetails from "./components/AccommodationDetails";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-function Home() {
+const App = () => {
   return (
-    <div>
-      <RestaurantsList/>
-      <AccommodationList/>
-    </div>
-  )
-}
+    <Provider store={store}>
+      <Router>
+        <div>
+          <Switch>
+            <Route exact path="/" component={AccommodationList} />
+            <Route path="/details/:id" component={AccommodationDetails} />
+          </Switch>
+        </div>
+      </Router>
+    </Provider>
+  );
+};
 
-export default Home
+export default App;

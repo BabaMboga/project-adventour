@@ -1,7 +1,8 @@
 import React from "react";
 import AccommodationsList from "./AccomodationsList";
 
-const App = () => {
+
+function App() {
   return (
     <div>     
       <AccommodationsList />

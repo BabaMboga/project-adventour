@@ -10,7 +10,6 @@ import AccommodationsList from "./AccommodationsList"
 import DestinationsList from "./DestinationsList";
 import RestaurantsList from "./RestaurantsList";
 import Footer from "./Footer";
-import SearchBar from "./SearchBar";
 
 
 
@@ -59,7 +58,6 @@ function App() {
   const filteredRestaurants = restaurants.filter(restaurant => {
     return restaurant.location.toLowerCase().includes(searchWord.toLowerCase())
   });
-
 
   return (
     <div>     

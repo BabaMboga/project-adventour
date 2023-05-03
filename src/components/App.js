@@ -48,7 +48,6 @@ function App() {
       <About />
       <Recommend />
       <Testimonials />
-      <Home />
       <Accommodation accomodations={accomodations}/>
       <Footer />
       {/* <DestinationsList destinations={destinations}/> */}

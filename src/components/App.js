@@ -19,6 +19,9 @@ function App() {
   const [accomodations, setAccomodations] = useState([]);
   const [searchWord, setSearchWord] = useState('');
   // const [restaurants, setRestaurants] = useState([]);
+
+  
+  const [restaurants, setRestaurants] = useState([]);
   // const [destinations, setDestinations] = useState([]);
 
   useEffect(() => {
@@ -28,12 +31,12 @@ function App() {
     
     }, []);
     
-  // useEffect(() => {
-  //   fetch('https://my-json-server.typicode.com/BabaMboga/phase2-code-challenge/transactions')
-  //   .then (response => response.json())
-  //   .then(restaurants => setRestaurants(restaurants));
+  useEffect(() => {
+    fetch('http://localhost:4000/restaurants')
+    .then (response => response.json())
+    .then(restaurants => setRestaurants(restaurants));
       
-  // }, []);
+  }, []);
 
   // useEffect(() => {
   //   fetch('')
@@ -69,8 +72,8 @@ function App() {
       <Testimonials />
       <AccommodationsList accomodations={filteredAccomodations}/>
       <Footer />
-      {/* <DestinationsList destinations={filteredDestinations}/> */}
-      {/* <RestaurantsList restaurants={filteredRestaurants}/> */}
+      {/* <DestinationsList destinations={destinations}/> */}
+      <RestaurantsList restaurants={restaurants}/>
     </div>
   );
 }

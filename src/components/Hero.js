@@ -3,11 +3,11 @@ import hero from '../Images/hero.jpg'
 
 const Hero = () => {
   return (
-    <Section id='hero'>
+    <div id='hero'>
       <div className='background'>
-        
+
       </div>
-    </Section>
+    </div>
   )
 }
 

@@ -1,4 +1,6 @@
 import React from 'react'
+import './Footer.css';
+
 
 function Footer() {
   return (
@@ -17,9 +19,6 @@ function Footer() {
                 <div class="footer-col">
                     <h4>get help</h4>
                     <ul1>
-                        <li><a href="#"></a></li>
-                        <li><a href="#">shipping</a></li>
-                        <li><a href="#">returns</a></li>
                         <li><a href="#">order status</a></li>
                         <li><a href="#">payment options</a></li>
                     </ul1>

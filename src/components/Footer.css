@@ -1,0 +1,48 @@
+.footer{
+    background-color: grey;
+    padding: 70px 0;
+}
+
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+
+footer-col h4{
+    font-size: 18px;
+    color: #ffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    background-color: red;
+}
+footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+footer-col .social-links{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50;
+}
+
+.container{
+    max-width: 1170px;
+    background-color: pink;
+    margin: auto;
+}
+ul1{
+    list-style: none;
+}

@@ -1,9 +1,8 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import './App.css';
 import NavBar from "./NavBar";
 import Home from "./Home";
 import Accommodation from "./AccommodationsList"
-import DestinationsItem from "./DestinationsItem";
 import DestinationsList from "./DestinationsList";
 import RestaurantsList from "./RestaurantsList";
 import Footer from "./Footer";
@@ -13,8 +12,8 @@ import Footer from "./Footer";
 function App() {
 
   const [accomodations, setAccomodations] = useState([]);
-  const [restaurants, setRestaurants] = useState([]);
-  const [destinations, setDestinations] = useState([]);
+  // const [restaurants, setRestaurants] = useState([]);
+  // const [destinations, setDestinations] = useState([]);
 
   useEffect(() => {
     fetch('https://my-json-server.typicode.com/BabaMboga/phase2-code-challenge/transactions')
@@ -23,18 +22,18 @@ function App() {
     
     }, []);
     
-  useEffect(() => {
-    fetch('https://my-json-server.typicode.com/BabaMboga/phase2-code-challenge/transactions')
-    .then (response => response.json())
-    .then(restaurants => setRestaurants(restaurants));
+  // useEffect(() => {
+  //   fetch('https://my-json-server.typicode.com/BabaMboga/phase2-code-challenge/transactions')
+  //   .then (response => response.json())
+  //   .then(restaurants => setRestaurants(restaurants));
       
-  }, []);
+  // }, []);
 
-  useEffect(() => {
-    fetch('')
-    .then (response => response.json())
-    .then (destinations => setDestinations(destinations));
-  })
+  // useEffect(() => {
+  //   fetch('')
+  //   .then (response => response.json())
+  //   .then (destinations => setDestinations(destinations));
+  // }, [])
 
 
   return (

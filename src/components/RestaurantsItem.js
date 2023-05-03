@@ -1,14 +1,13 @@
-// import React from 'react';
+import React from 'react'
 
-// const RestaurantItem = () => {
-//   return (
-//     <div className="restaurant-item">
-//       <img src={restaurant.image} alt={restaurant.name} />
-//       <h2>{restaurant.name}</h2>
-//       <p>{restaurant.location}</p>
-//       <button>Order Now</button>
-//     </div>
-//   );
-// };
+function RestaurantsItem({name,location,image}) {
+  return (
+    <div className='restaurant-card'>
+        <img src={image} alt={name}></img>
+        <h3>{name}</h3>
+        <small>Location: {location}</small>
+    </div>
+  )
+}
 
-// export default RestaurantItem;
+export default RestaurantsItem;

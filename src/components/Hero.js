@@ -1,13 +1,37 @@
 import React from 'react'
-import hero from '../Images/hero.jpg'
+import heroImage from '../Images/hero.jpg'
+import './Hero.css'
 
 const Hero = () => {
   return (
-    <div id='hero'>
+    <section id='hero'>
       <div className='background'>
-
+        <img src={heroImage} alt='' />
       </div>
-    </div>
+      <div className='content'>
+        <div className='title'>
+          <h1>COME ON AN ADVENTURE</h1>
+          <p>
+            Visit the most vibrant destinations in Nairobi and immerse yourself in it's rich culture
+          </p>
+        </div>
+        <div className='search'>
+          <div className='container'>
+            <label htmlFor=''>Where do you want to go</label>
+            <input type='text' placeholder='Pick a location' />
+          </div>
+          <div className='container'>
+            <label htmlFor=''>Check in date</label>
+            <input type='date' />
+          </div>
+          <div className='container'>
+            <label htmlFor=''>Check out date</label>
+            <input type='date' />
+          </div>
+          <button>Explore Now</button>
+        </div>
+      </div>
+    </section>
   )
 }
 

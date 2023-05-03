@@ -8,7 +8,7 @@ const NavBar = () => {
         <div className='header'>
             <div className='logoDiv'>
                 <a href = '#' className='logo'>
-                    <h1 className='flex'><img src={Adventour} className='icon' alt='Icon'></img></h1>
+                    <img src={Adventour} className='icon' alt='Icon'/>
                 </a>
             </div>
             <div className='navBar'>
@@ -25,15 +25,6 @@ const NavBar = () => {
                     <li className='navItem'>
                         <a href='#' className='navLink'>Where To Stay</a>
                     </li>
-
-                    <div className='headerBtns flex'>
-                        <button className='btn loginBtn'>
-                            <a href='#'>Login</a>
-                        </button>
-                        <button className='btn'>
-                            <a href='#'>Sign Up</a>
-                        </button>
-                    </div>
                 </ul>
             </div>
         </div>
@@ -41,4 +32,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
+export default NavBar;

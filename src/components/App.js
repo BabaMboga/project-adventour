@@ -6,6 +6,7 @@ import Accommodation from "./AccommodationsList"
 import DestinationsItem from "./DestinationsItem";
 import DestinationsList from "./DestinationsList";
 import RestaurantsList from "./RestaurantsList";
+import Footer from "./Footer";
 
 
 
@@ -42,6 +43,7 @@ function App() {
       <NavBar />
       <Home />
       <Accommodation accomodations={accomodations}/>
+      <Footer />
       {/* <DestinationsList destinations={destinations}/> */}
       {/* <RestaurantsList restaurants={restaurants}/> */}
     </div>

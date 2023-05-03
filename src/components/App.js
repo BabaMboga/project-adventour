@@ -10,6 +10,7 @@ import AccommodationsList from "./AccommodationsList"
 import DestinationsList from "./DestinationsList";
 import RestaurantsList from "./RestaurantsList";
 import Footer from "./Footer";
+import SearchBar from "./SearchBar";
 
 
 
@@ -17,8 +18,6 @@ function App() {
 
   const [accomodations, setAccomodations] = useState([]);
   const [searchWord, setSearchWord] = useState('');
-
-  
   // const [restaurants, setRestaurants] = useState([]);
   // const [destinations, setDestinations] = useState([]);
 
@@ -48,7 +47,15 @@ function App() {
 
   const filteredAccomodations = accomodations.filter(accomodation => {
     return accomodation.location.toLowerCase().incldes(searchWord.toLowerCase())
-  })
+  });
+
+  const filteredDestinations = destinations.filter(destination => {
+    return destination.location.toLowerCase().includes(searchWord.toLowerCase())
+  });
+
+  const filteredRestaurants = restaurants.filter(restaurant => {
+    return restaurant.location.toLowerCase().includes(searchWord.toLowerCase())
+  });
 
 
   return (

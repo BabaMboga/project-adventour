@@ -48,8 +48,6 @@ function App() {
       <About />
       <Recommend />
       <Testimonials />
-      {/* <DestinationsList /> */}
-      {/* <RestaurantsList /> */}
       <Home />
       <Accommodation accomodations={accomodations}/>
       <Footer />

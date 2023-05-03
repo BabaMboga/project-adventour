@@ -1,37 +1,30 @@
-import React, { useState } from "react";
+import React from 'react'
+import AccomodationItem from './AccommodationItems';
 
-function AccommodationsList() {
-  const [accommodations, setAccommodations] = useState([]);
+function AccommodationItems({AccomodationItem}) {
+      return (
+        <div className='container'>
+            <h1>HOTELS AVAILABLE FOR BOOKING</h1>
+            <div className='accomodation-list'>
+                {/* <img src="https://static.wixstatic.com/media/4b855c29f0fa4015b5e1adfda7e53fde.jpg/v1/fill/w_636,h_590,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4b855c29f0fa4015b5e1adfda7e53fde.jpg" alt="" /> */}
+                <h2> Hotels around town</h2>
+                <main>
+                    {accomodations.map((accomodation) => (
+                        <AccomodationsItem 
+                            key={accomodation.id}
+                            name={accomodation.name}
+                            image={accomodation.image}
+                            location={accomodation.location}
 
-  const fetchAccommodations = async () => {
-    try {
-      const response = await fetch("db.json");
-      const data = await response.json();
-      setAccommodations(data);
-    } catch (error) {
-      console.log("Error fetching accommodations:", error);
-    }
-  };
+                        />
+                    ))}
+                </main>
+                
+            </div>
+    
+            
+        </div>
+      );
+    }  
 
-  // Call the fetchAccommodations function whenever needed
-  fetchAccommodations();
-
-  return (
-    <div className="main">
-      <div className="heading">
-        <h1>Accommodation</h1>
-      </div>
-      <div className="cards">
-        {accommodations.map((accommodation) => (
-          <div className="myDiv" key={accommodation.id}>
-            <h2>{accommodation.heading}</h2>
-            <img src={accommodation.imageUrl} alt={accommodation.altText} />
-            <h2>{accommodation.text}</h2>
-          </div>
-        ))}
-      </div>
-    </div>
-  );
-}
-
-export default AccommodationsList;
+export default RestaurantsList;

@@ -24,7 +24,7 @@ function App() {
   // const [destinations, setDestinations] = useState([]);
 
   useEffect(() => {
-    fetch('https://my-json-server.typicode.com/BabaMboga/phase2-code-challenge/transactions')
+    fetch('http://localhost:3000/accomodations')
     .then (response => response.json())
     .then(accomodations => setAccomodations(accomodations));
     

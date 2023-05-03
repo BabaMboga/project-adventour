@@ -6,7 +6,7 @@ import Accommodation from "./AccommodationsList"
 import DestinationsItem from "./DestinationsItem";
 import DestinationsList from "./DestinationsList";
 import RestaurantsList from "./RestaurantsList";
-
+import Footer from "./Footer";
 
 
 
@@ -18,6 +18,7 @@ function App() {
       <Accommodation />
       {/* <DestinationsList /> */}
       {/* <RestaurantsList /> */}
+      <Footer />
     </div>
   );
 }

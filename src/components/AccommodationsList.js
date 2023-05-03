@@ -1,5 +1,6 @@
 import React from 'react'
 import AccomodationItem from './AccommodationItems';
+import AccommodationsItem from './AccommodationItems';
 
 function AccommodationItems({AccomodationItem}) {
       return (
@@ -9,8 +10,8 @@ function AccommodationItems({AccomodationItem}) {
                 {/* <img src="https://static.wixstatic.com/media/4b855c29f0fa4015b5e1adfda7e53fde.jpg/v1/fill/w_636,h_590,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4b855c29f0fa4015b5e1adfda7e53fde.jpg" alt="" /> */}
                 <h2> Hotels around town</h2>
                 <main>
-                    {accomodations.map((accomodation) => (
-                        <AccomodationsItem 
+                    {AccomodationItem.map((accomodation) => (
+                        <accomodationsItem 
                             key={accomodation.id}
                             name={accomodation.name}
                             image={accomodation.image}
@@ -27,4 +28,4 @@ function AccommodationItems({AccomodationItem}) {
       );
     }  
 
-export default RestaurantsList;
+export default AccommodationItems;

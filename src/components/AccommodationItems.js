@@ -1,6 +1,6 @@
 import React from 'react'
 
-function AccomodationsItem({name,location,image}) {
+function AccommodationsItem({name,location,image}) {
   return (
     <div className='hotel-card'>
         <img src={image} alt={name}></img>
@@ -10,4 +10,4 @@ function AccomodationsItem({name,location,image}) {
   )
 }
 
-export default RestaurantsItem;
+export default AccommodationsItem;

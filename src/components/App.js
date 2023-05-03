@@ -51,9 +51,9 @@ function App() {
     return accomodation.location.toLowerCase().incldes(searchWord.toLowerCase())
   });
 
-  const filteredDestinations = destinations.filter(destination => {
-    return destination.location.toLowerCase().includes(searchWord.toLowerCase())
-  });
+  // const filteredDestinations = destinations.filter(destination => {
+  //   return destination.location.toLowerCase().includes(searchWord.toLowerCase())
+  // });
 
   const filteredRestaurants = restaurants.filter(restaurant => {
     return restaurant.location.toLowerCase().includes(searchWord.toLowerCase())

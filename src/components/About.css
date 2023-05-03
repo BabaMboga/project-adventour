@@ -14,9 +14,9 @@
     transition: 0.3s ease-in-out;
 }
 #services .service:hover {
-      transform: translateX(0.4rem) translateY(-1rem);
-      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    }
+    transform: translateX(0.4rem) translateY(-1rem);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 #services .service .icon img {
-        height: 2.4rem;
+    height: 2.4rem;
 }

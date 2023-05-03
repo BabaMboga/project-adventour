@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Home = () => {
+const Recommend = () => {
   return (
     <section className='home'>
         <div className='secContainer container'>
@@ -11,10 +11,14 @@ const Home = () => {
                 <p className='subTitle'>
                     Explore Nairobi's finest destinations and immerse yourself in it's rich culture.
                 </p>
+
+                <button className='btn'>
+                    <a href='#'>Explore Now</a>
+                </button>
             </div>
         </div>
     </section>
   )
 }
 
-export default Home
+export default Recommend;

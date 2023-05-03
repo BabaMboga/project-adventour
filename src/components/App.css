@@ -1,86 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-*{
-  padding: 0;
+* {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 1rem 2rem;
   font-family: 'Poppins', sans-serif;
-  transition: 0.5s ease;
 }
 
-a{
-  text-decoration: none;
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: #14213d;
 }
-
-li{
-  list-style: none;
-}
-
-.section{
-  padding: 4rem 0 2rem;
-}
-
-.container{
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
-.icon{
-  font-size: 2rem;
-  cursor: pointer;
-}
-
-.flex{
-  display: flex;
-  align-items: center;
-}
-
-.grid{
-  display: grid;
-  align-items: center;
-}
-
-.btn{
-  padding: 4rem 1.5rem;
-  background: brown;
-  border: none;
-  outline: none;
-  border-radius: 3rem;
-  cursor: pointer;
-}
-
-.btn a{
-  color: whitesmoke;
-  font-weight: 500;
-}
-
-.btn:hover a{
-  color: whitesmoke;
-}
-
-.sectionIntro{
-  max-width: 70%;
-  text-align: center;
-  margin: 0 auto 2rem;
-}
-
-.sectionIntro .sectionTitle{
-  color: black;
-  line-height: 1.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.sectionIntro p{
-  font-size: 13px;
-  color: grey;
-  font-weight: 500;
-}
-
-/* img,video{
-  width: 100%;
-  height: auto;
-} */
-
-input{
-  font-size: 100%;
+::-webkit-scrollbar-thumb {
+  background-color: #4539e6;
 }

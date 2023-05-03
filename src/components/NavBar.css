@@ -1,64 +1,70 @@
-.navBarSection .header{
-    position: fixed;
+.Nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Nav .brand .container{
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 1.2rem;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+.Nav .brand .toggle {
+      display: none;
+    }
+.Nav ul {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: transparent;
-    width: 100%;
-    padding: 1rem;
-    z-index: 100%
+    gap: 1rem;
+    list-style-type: none;
 }
-
-.navBarSection .logoDiv .logo{
-    color: whitesmoke;
-    font-weight: 500;
+      .Nav ul li a {
+        text-decoration: none;
+        color: rgb(135, 95, 55);
+        font-size: 1.2rem;
+        transition: 0.1s ease-in-out;
+      }
+        .Nav ul li a:hover {
+          color: rgb(79, 47, 15);
+        }
+    .Nav ul li:first-of-type a{
+          color: rgb(79, 47, 15);
+          font-weight: 900;
+        }
+  .Nav button {
+    padding: 0.5rem 1rem;
     cursor: pointer;
-    align-items: center;
-    justify-content: center;
+    border-radius: 1rem;
+    border: none;
+    color: white;
+    background-color: rgb(135, 95, 55);
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+  }
+    .Nav button:hover {
+      background-color: rgb(79, 47, 15);
+    }
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    .brand {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
 }
-
-.navBarSection .logoDiv .icon{
-    width:8rem;
-    height: 6rem;
-    font-size: 25px;
-    border-radius: 12px;
-}
-
-@media screen {
-    .navBar{
-        background: white;
-        position: absolute;
-        height: max-content;
-        padding: 2rem;
-        width: 100%;
-        top: 0;
-        left: 0;
-        box-shadow: 0 2px 4px grey;
-        transition: 0.5s ease;
-        z-index: -1000;
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    .brand .toggle {
+        display: block;
+      }
+    ul {
+      display: none;
     }
-    .navLists{
-        justify-content: center;
-        width: 100%;
-        margin: auto;
+    button {
+      display: none;
     }
-
-    .navLists .navItem{
-        padding: 1rem 0;
-    }
-
-    .navLists .navItem .navLink{
-        padding: 40px;
-        color: black;
-        font-size: 0.9rem;
-        font-weight: 600;
-    }
-
-    .navLists .navItem .navLink:hover{
-        color: rgb(101, 67, 33);
-    }
-
-    /* .navLists .navItem .navLink:active{
-        color: rgb(101, 67, 33);
-    } */
 }

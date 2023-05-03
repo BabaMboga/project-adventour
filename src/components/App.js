@@ -6,7 +6,7 @@ import Hero from "./Hero";
 import About from "./About";
 import Recommend from "./Recommend";
 import Testimonials from "./Testimonials";
-import Accommodation from "./AccommodationsList"
+import AccommodationsList from "./AccommodationsList"
 import DestinationsList from "./DestinationsList";
 import RestaurantsList from "./RestaurantsList";
 import Footer from "./Footer";
@@ -16,6 +16,9 @@ import Footer from "./Footer";
 function App() {
 
   const [accomodations, setAccomodations] = useState([]);
+  const [searchWord, setSearchWord] = useState('');
+
+  
   // const [restaurants, setRestaurants] = useState([]);
   // const [destinations, setDestinations] = useState([]);
 
@@ -39,19 +42,28 @@ function App() {
   //   .then (destinations => setDestinations(destinations));
   // }, [])
 
+  const handleSearch = word => {
+    setSearchWord(word)
+  };
+
+  const filteredAccomodations = accomodations.filter(accomodation => {
+    return accomodation.location.toLowerCase().incldes(searchWord.toLowerCase())
+  })
+
 
   return (
     <div>     
       {/* <ScrollToTop /> */}
       <NavBar />
+      {/* <SearchBar onSearch={handleSearch}/> */}
       <Hero />
       <About />
       <Recommend />
       <Testimonials />
-      <Accommodation accomodations={accomodations}/>
+      <AccommodationsList accomodations={filteredAccomodations}/>
       <Footer />
-      {/* <DestinationsList destinations={destinations}/> */}
-      {/* <RestaurantsList restaurants={restaurants}/> */}
+      {/* <DestinationsList destinations={filteredDestinations}/> */}
+      {/* <RestaurantsList restaurants={filteredRestaurants}/> */}
     </div>
   );
 }

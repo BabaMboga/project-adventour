@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div>     
-      <ScrollToTop />
+      {/* <ScrollToTop /> */}
       <NavBar />
       <About />
       <Services />

@@ -8,7 +8,7 @@ function RestaurantsList() {
   const [searchWord, setSearchWord] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:4000/restaurants")
+    fetch("http://localhost:3001/restaurants")
       .then((response) => response.json())
       .then((restaurants) => setRestaurants(restaurants));
   }, []);

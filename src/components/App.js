@@ -23,9 +23,9 @@ function App() {
       <Services />
       <Recommend />
       <Testimonials />
+      <Footer />
       <AccommodationsList />
       <RestaurantsList />
-      <Footer />
       {/* <DestinationsList destinations={destinations}/> */}
     </div>
   );

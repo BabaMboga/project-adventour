@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import SearchBar from "./SearchBar";
 import RestaurantsItem from "./RestaurantsItem";
+import "./RestaurantsList.css"
 
 function RestaurantsList() {
   const [restaurants, setRestaurants] = useState([]);

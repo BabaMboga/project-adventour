@@ -1,0 +1,24 @@
+.container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container,h1{
+    color: #585252;
+    font-size: 1.2em;
+    font-weight: bold;
+    }
+.restaurants-list,img{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+.restaurants-list h2{
+    font-size: 1.2em;
+    color: #7b6b6b;
+}

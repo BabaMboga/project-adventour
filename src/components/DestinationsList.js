@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import DestinationsItem from "./DestinationsItem";
 import SearchBar from "./SearchBar";
 
-function DestinationsList({ destinations }) {
+function DestinationsList({ Destinations }) {
   const [destinations, setDestinations] = useState([]);
   const [searchWord, setSearchWord] = useState("");
 

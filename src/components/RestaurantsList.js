@@ -8,7 +8,7 @@ function RestaurantsList() {
   const [searchWord, setSearchWord] = useState("");
 
   useEffect(() => {
-    fetch("https://project-adventour-data.onrender.com/restaurants")
+    fetch("http://localhost:3005/restaurants")
       .then((response) => response.json())
       .then((restaurants) => setRestaurants(restaurants));
   }, []);

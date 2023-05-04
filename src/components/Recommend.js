@@ -1,7 +1,9 @@
-// import React from 'react'
+import React from 'react'
 
-// const Recommend = () => {
-//   return
-// }
+const Recommend = () => {
+  return (
+  <div></div>
+  )
+}
 
-// export default Recommend;
+export default Recommend;

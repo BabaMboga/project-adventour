@@ -7,7 +7,7 @@ function DestinationsList() {
   const [searchWord, setSearchWord] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:3005/destinations")
+    fetch("http://localhost:4000/destinations")
       .then((response) => response.json())
       .then((destinations) => setDestinations(destinations));
   }, []);
@@ -20,7 +20,8 @@ function DestinationsList() {
     const destinationToUpdate = destinations.find((destination) => destination.id === id);
     const updatedDestination = {...destinationToUpdate, likes: destinationToUpdate.likes + 1};
 
-    fetch(`http://localhost:4000/${id}`, {
+    fetch(`http://localhost:3005/destinations/${id}`, {
+    fetch(`http://localhost:4000/restaurants/${id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',

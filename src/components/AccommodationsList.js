@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import AccommodationsItem from "./AccommodationsItem";
 import SearchBar from "./SearchBar";
-import "./AccommodationsList.css"; 
+import "./AccommodationsList.css";
 
 function AccommodationsList() {
   const [accommodations, setAccommodations] = useState([]);
@@ -26,17 +26,16 @@ function AccommodationsList() {
   return (
     <div className="container">
       <h1>HOTELS TO STAY IN NAIROBI</h1>
+      <br />
       <div className="accomodations-list">
-      <SearchBar onSearch={handleSearch} />
+        <SearchBar onSearch={handleSearch} />
         <main>
-          
           {filteredAccommodations.map((accommodation) => (
             <AccommodationsItem
               key={accommodation.id}
               image={accommodation.image}
               name={accommodation.name}
               location={accommodation.location}
-              
             />
           ))}
         </main>

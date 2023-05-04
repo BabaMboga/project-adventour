@@ -28,7 +28,7 @@ const NavBar = ({ isLoggedIn, handleLogout }) => {
             <Link to="/restaurants">Where To Eat</Link>
           </li>
           <li>
-            <Link to="/accomodations">Where To Stay</Link>
+            <Link to="/accommodations">Where To Stay</Link>
           </li>
         </ul>
         {isLoggedIn ? (

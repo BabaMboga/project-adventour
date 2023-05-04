@@ -20,10 +20,10 @@ function App() {
       {/* <ScrollToTop /> */}
       <NavBar />
       <About />
-       <Services />
-      <AccommodationsList />
+      <Services />
       <Recommend />
       <Testimonials />
+      <AccommodationsList />
       <RestaurantsList />
       <DestinationsList/>
       <Footer />

@@ -1,7 +1,7 @@
 #footer{
 display: flex;
   justify-content: space-evenly;
-  background-color: #d0d8ff;
+  background-color: wheat;
   border-radius: 0.5rem;
   padding: 2.5rem;
 }
@@ -16,12 +16,12 @@ display: flex;
         transition: 0.3s ease-in-out;
 }
 #footer ul li a:hover {
-    color: #302ce9;
+    color: rgb(79, 47, 15);
 }
 #footer .socialLinks a {
         font-size: 1.3rem;
         transition: 0.3s ease-in-out;
 }
 #footer .socialLinks a:hover {
-          color: #302ce9;
+          color: rgb(79, 47, 15);
 }

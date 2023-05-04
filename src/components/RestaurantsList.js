@@ -2,6 +2,28 @@ import React from 'react'
 import DestinationsItem from './DestinationsItem';
 
 function RestaurantsList({restaurants}) {
+    const [restaurants, setRestaurants] = useState([]);
+    const [searchWord, setSearchWord] = useState('');
+  
+  
+
+    useEffect(() => {
+        fetch('http://localhost:4000/restaurants')
+        .then (response => response.json())
+        .then(restaurants => setRestaurants(restaurants));
+          
+    }, []);
+
+    const handleSearch = word => {
+        setSearchWord(word)
+    };
+
+    const filteredRestaurants = restaurants.filter(restaurant => {
+        return restaurant.location.toLowerCase().includes(searchWord.toLowerCase())
+    });
+    
+
+
       return (
         <div className='container'>
             <h1>THE RESTAURANTS IN NAIROBI</h1>
@@ -24,6 +46,6 @@ function RestaurantsList({restaurants}) {
             
         </div>
       );
-    }  
+}  
 
 export default RestaurantsList;

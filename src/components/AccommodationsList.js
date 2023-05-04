@@ -1,34 +1,43 @@
 import React, { useState } from "react";
+import AccomodationsItem from './AccommodationsItem'
 
-function AccommodationsList() {
-  const [accommodations, setAccommodations] = useState([]);
+function AccomodationsList() {
+  const [accomodations, setAccomodations] = useState([]);
+  const [searchWord, setSearchWord] = useState('');
+  
 
-  const fetchAccommodations = async () => {
-    try {
-      const response = await fetch("db.json");
-      const data = await response.json();
-      setAccommodations(data);
-    } catch (error) {
-      console.log("Error fetching accommodations:", error);
-    }
-  };
+  useEffect(() => {
+    fetch('https://my-json-server.typicode.com/BabaMboga/phase2-code-challenge/transactions')
+    .then (response => response.json())
+    .then(accomodations => setAccomodations(accomodations));
+    
+  }, []);
 
-  // Call the fetchAccommodations function whenever needed
-  fetchAccommodations();
+  const handleSearch = word => {
+    setSearchWord(word)
+  }; 
+  
+  const filteredAccomodations = accomodations.filter(accomodation => {
+    return accomodation.location.toLowerCase().incldes(searchWord.toLowerCase())
+  });
 
   return (
-    <div className="main">
-      <div className="heading">
-        <h1>Accommodation</h1>
-      </div>
-      <div className="cards">
-        {accommodations.map((accommodation) => (
-          <div className="myDiv" key={accommodation.id}>
-            <h2>{accommodation.heading}</h2>
-            <img src={accommodation.imageUrl} alt={accommodation.altText} />
-            <h2>{accommodation.text}</h2>
-          </div>
-        ))}
+    <div className="container">      
+      <h1>HOTELS TO STAY IN NAIROBI</h1>
+      <div className="accomodations-list">
+        <main>
+          {filteredAccomodations.map((accomodation) => (
+              <AccomodationsItem 
+                  key={accomodation.id}
+                  image={accomodation.image}
+                  name={accomodation.name}
+                  location={accomodation.location}
+              />
+        
+        
+          
+           ))}
+        </main>
       </div>
     </div>
   );

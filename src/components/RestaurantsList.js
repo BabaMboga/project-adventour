@@ -2,12 +2,12 @@ import React, {useState, useEffect} from "react";
 import SearchBar from "./SearchBar";
 import RestaurantsItem from "./RestaurantsItem";
 
-function RestaurantsList({ Restaurants }) {
+function RestaurantsList() {
   const [restaurants, setRestaurants] = useState([]);
   const [searchWord, setSearchWord] = useState("");
 
   useEffect(() => {
-    fetch("https://localhost:3000/restaurants")
+    fetch("http://localhost:3001/restaurants")
       .then((response) => response.json())
       .then((restaurants) => setRestaurants(restaurants));
   }, []);

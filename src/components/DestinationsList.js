@@ -2,12 +2,12 @@ import React, {useState, useEffect} from "react";
 import DestinationsItem from "./DestinationsItem";
 import SearchBar from "./SearchBar";
 
-function DestinationsList({ Destinations }) {
+function DestinationsList() {
   const [destinations, setDestinations] = useState([]);
   const [searchWord, setSearchWord] = useState("");
 
   useEffect(() => {
-    fetch("https://localhost:3000/destinations")
+    fetch("http://localhost:3001/destinations")
       .then((response) => response.json())
       .then((destinations) => setDestinations(destinations));
   }, []);

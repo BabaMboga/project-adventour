@@ -11,27 +11,24 @@ import AccommodationsList from "./AccommodationsList";
 import DestinationsList from "./DestinationsList";
 import RestaurantsList from "./RestaurantsList";
 import Footer from "./Footer";
+import Login from "./Login";
 
 function App() {
   return (
-    <Router>
-      <div>
-        {/* <ScrollToTop /> */}
-        <NavBar />
-        <Switch>
-          <Route exact path="/" component={About} />
-          <Route path="/accommodations" component={AccommodationsList} />
-          <Route path="/destinations" component={DestinationsList} />
-          <Route path="/restaurants" component={RestaurantsList} />
-        </Switch>
-        <About />
-        <Services />
-        <Recommend />
-        <Testimonials />
-        <Footer />
-      </div>
-    </Router>
-  );
+    <div>     
+      {/* <ScrollToTop /> */}
+      <Login />
+      <NavBar />
+      <About />
+      <Services />
+      <Recommend />
+      <Testimonials />
+      <AccommodationsList />
+      <RestaurantsList />
+      <DestinationsList/>
+      <Footer />
+    </div>
+  )
 }
 
 export default App;

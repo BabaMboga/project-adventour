@@ -11,12 +11,13 @@ import AccommodationsList from "./AccommodationsList";
 import DestinationsList from "./DestinationsList";
 import RestaurantsList from "./RestaurantsList";
 import Footer from "./Footer";
-// import Login from "./Login";
+import Login from "./Login";
 
 function App() {
   return (
     <div>
         {/* <ScrollToTop /> */}
+        <Login />
         <BrowserRouter>
         <NavBar />
        <Routes>

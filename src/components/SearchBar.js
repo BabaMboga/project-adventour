@@ -1,6 +1,6 @@
 import React from 'react'
 
-function SearchBar() {
+function SearchBar({onSearch}) {
   return (
     <input 
     className='input'

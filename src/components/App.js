@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css';
+import "./App.css";
 import ScrollToTop from "./ScrollToTop";
 import NavBar from "./NavBar";
 import About from "./About";
@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div>     
-      {/* <ScrollToTop /> */}
+      <ScrollToTop />
       <NavBar />
       <About />
       <Services />
@@ -28,7 +28,7 @@ function App() {
       <RestaurantsList />
       {/* <DestinationsList destinations={destinations}/> */}
     </div>
-  );
+  )
 }
 
 export default App;

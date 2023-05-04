@@ -30,7 +30,7 @@ const Services = () => {
       title: "Find The Best Near You",
       subTitle:
         "Find the best hotels, restaurants, and places to visit near you in a single click.",
-    },
+    }
   ];
   return (
     <section id='services'>

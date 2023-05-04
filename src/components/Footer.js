@@ -4,7 +4,7 @@ import './Footer.css';
 
 function Footer() {
   return (
-    <Footer id='footer'>
+    <footer id='footer'>
     <span>Copyright &copy; 2023 Adventour. All rights reserved</span>
     <ul className='Links'>
         <li><a href='#'>Home</a></li>
@@ -17,8 +17,8 @@ function Footer() {
       <a href="https://twitter.com/TKAdventure"><i class="twitter.jpeg"></i></a>
       <a href="https://www.instagram.com/tkadventures254/"><i class="instagram.jpeg"></i></a>
       <a href="https://www.myglobalviewpoint.com/adventure-quotes/"><i class="whatsapp.jpeg"></i></a>
-    </Footer>
+    </footer>
   )
 }
 
-export default Footer
+export default Footer;

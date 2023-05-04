@@ -2,8 +2,8 @@ import React from "react";
 import './App.css';
 import ScrollToTop from "./ScrollToTop";
 import NavBar from "./NavBar";
-import Hero from "./Hero";
 import About from "./About";
+import Services from "./Services";
 import Recommend from "./Recommend";
 import Testimonials from "./Testimonials";
 import AccommodationsList from "./AccommodationsList"
@@ -19,15 +19,14 @@ function App() {
     <div>     
       {/* <ScrollToTop /> */}
       <NavBar />
-      
-      <Hero />
       <About />
+      <Services />
       <Recommend />
       <Testimonials />
-      <AccommodationsList />
       <Footer />
-      {/* <DestinationsList destinations={destinations}/> */}
+      <AccommodationsList />
       <RestaurantsList />
+      {/* <DestinationsList destinations={destinations}/> */}
     </div>
   );
 }

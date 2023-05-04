@@ -8,7 +8,7 @@ function AccommodationsList() {
   const [searchWord, setSearchWord] = useState("");
 
   useEffect(() => {
-    fetch("https://project-adventour-data.onrender.com/accommodations")
+    fetch("http://localhost:3009/accommodations")
       .then((response) => response.json())
       .then((accommodations) => setAccommodations(accommodations));
   }, []);
@@ -27,7 +27,7 @@ function AccommodationsList() {
     <div className="container">
       <h1>HOTELS TO STAY IN NAIROBI</h1>
       <br />
-      <div className="accomodations-list">
+      <div className="accommodations-list">
         <SearchBar onSearch={handleSearch} />
         <main>
           {filteredAccommodations.map((accommodation) => (

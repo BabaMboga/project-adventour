@@ -15,63 +15,18 @@ import Footer from "./Footer";
 
 function App() {
 
-  const [accomodations, setAccomodations] = useState([]);
-  const [searchWord, setSearchWord] = useState('');
-  // const [restaurants, setRestaurants] = useState([]);
-
-  
-  const [restaurants, setRestaurants] = useState([]);
-  // const [destinations, setDestinations] = useState([]);
-
-  useEffect(() => {
-    fetch('http://localhost:3000/accomodations')
-    .then (response => response.json())
-    .then(accomodations => setAccomodations(accomodations));
-    
-    }, []);
-    
-  useEffect(() => {
-    fetch('http://localhost:4000/restaurants')
-    .then (response => response.json())
-    .then(restaurants => setRestaurants(restaurants));
-      
-  }, []);
-
-  // useEffect(() => {
-  //   fetch('')
-  //   .then (response => response.json())
-  //   .then (destinations => setDestinations(destinations));
-  // }, [])
-
-  const handleSearch = word => {
-    setSearchWord(word)
-  };
-
-  const filteredAccomodations = accomodations.filter(accomodation => {
-    return accomodation.location.toLowerCase().incldes(searchWord.toLowerCase())
-  });
-
-  // const filteredDestinations = destinations.filter(destination => {
-  //   return destination.location.toLowerCase().includes(searchWord.toLowerCase())
-  // });
-
-  const filteredRestaurants = restaurants.filter(restaurant => {
-    return restaurant.location.toLowerCase().includes(searchWord.toLowerCase())
-  });
-
   return (
     <div>     
       {/* <ScrollToTop /> */}
       <NavBar />
-      {/* <SearchBar onSearch={handleSearch}/> */}
       <About />
       <Services />
       <Recommend />
       <Testimonials />
-      <AccommodationsList accomodations={filteredAccomodations}/>
+      <AccommodationsList />
+      <RestaurantsList />
       <Footer />
       {/* <DestinationsList destinations={destinations}/> */}
-      <RestaurantsList restaurants={restaurants}/>
     </div>
   );
 }

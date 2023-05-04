@@ -1,31 +1,45 @@
-import React from 'react'
-import AccomodationItem from './AccommodationItems';
-import AccommodationsItem from './AccommodationItems';
+import React, { useState, useEffect } from "react";
+import AccommodationsItem from "./AccommodationsItem";
+import SearchBar from "./SearchBar";
 
-function AccommodationItems({AccomodationItem}) {
-      return (
-        <div className='container'>
-            <h1>HOTELS AVAILABLE FOR BOOKING</h1>
-            <div className='accomodation-list'>
-                {/* <img src="https://static.wixstatic.com/media/4b855c29f0fa4015b5e1adfda7e53fde.jpg/v1/fill/w_636,h_590,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4b855c29f0fa4015b5e1adfda7e53fde.jpg" alt="" /> */}
-                <h2> Hotels around town</h2>
-                <main>
-                    {AccomodationItem.map((accomodation) => (
-                        <accomodationsItem 
-                            key={accomodation.id}
-                            name={accomodation.name}
-                            image={accomodation.image}
-                            location={accomodation.location}
+function AccommodationsList() {
+  const [accommodations, setAccommodations] = useState([]);
+  const [searchWord, setSearchWord] = useState("");
 
-                        />
-                    ))}
-                </main>
-                
-            </div>
-    
-            
-        </div>
-      );
-    }  
+  useEffect(() => {
+    fetch("http://localhost:3000/accommodations")
+      .then((response) => response.json())
+      .then((accommodations) => setAccommodations(accommodations));
+  }, []);
 
-export default AccommodationItems;
+  const handleSearch = (word) => {
+    setSearchWord(word);
+  };
+
+  const filteredAccommodations = accommodations.filter((accommodation) => {
+    return accommodation.location
+      .toLowerCase()
+      .incldes(searchWord.toLowerCase());
+  });
+
+  return (
+    <div className="container">
+      <h1>HOTELS TO STAY IN NAIROBI</h1>
+      <div className="accomodations-list">
+        <main>
+          <SearchBar onSearch={handleSearch} />
+          {filteredAccommodations.map((accommodation) => (
+            <AccommodationsItem
+              key={accommodation.id}
+              image={accommodation.image}
+              name={accommodation.name}
+              location={accommodation.location}
+            />
+          ))}
+        </main>
+      </div>
+    </div>
+  );
+}
+
+export default AccommodationsList;

@@ -1,8 +1,8 @@
 import React from "react";
 
-function RestaurantsItem({ name, location, image }) {
+function AccommodationsItem({ name, location, image }) {
   return (
-    <div className="restaurant-card">
+    <div className="accommodation-card">
       <img src={image} alt={name}></img>
       <h3>{name}</h3>
       <small>Location: {location}</small>
@@ -10,4 +10,4 @@ function RestaurantsItem({ name, location, image }) {
   );
 }
 
-export default RestaurantsItem;
+export default AccommodationsItem;

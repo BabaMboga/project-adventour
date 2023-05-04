@@ -58,6 +58,9 @@ function DestinationsList() {
             name={destination.name}
             location={destination.location}
             description={destination.description}
+            id={destination.id}
+            likes={destination.likes}
+            onLike={handleLike}
           />
         ))}
       </main>

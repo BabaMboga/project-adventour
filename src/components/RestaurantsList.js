@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import SearchBar from "./SearchBar";
 import RestaurantsItem from "./RestaurantsItem";
+import "./RestaurantsList.css"
 
 function RestaurantsList() {
   const [restaurants, setRestaurants] = useState([]);
@@ -29,6 +30,7 @@ function RestaurantsList() {
           alt=""
         />
         <h2> Restaurants around town</h2>
+        <div className="cards">
         <main>
           <SearchBar onSearch={handleSearch} />
           {filteredRestaurants.map((restaurant) => (
@@ -39,6 +41,7 @@ function RestaurantsList() {
             />
           ))}
         </main>
+        </div>
       </div>
     </div>
   );

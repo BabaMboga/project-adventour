@@ -8,7 +8,7 @@ function AccommodationsList() {
   const [searchWord, setSearchWord] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:4000/accommodations")
+    fetch("http://localhost:3000/accommodations")
       .then((response) => response.json())
       .then((accommodations) => setAccommodations(accommodations));
   }, []);

@@ -7,6 +7,9 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^0.17.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
@@ -43,5 +46,14 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BabaMboga/project-adventour.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/BabaMboga/project-adventour/issues"
+  },
+  "homepage": "https://github.com/BabaMboga/project-adventour#readme"
 }

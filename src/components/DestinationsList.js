@@ -7,7 +7,7 @@ function DestinationsList() {
   const [searchWord, setSearchWord] = useState("");
 
   useEffect(() => {
-    fetch("https://project-adventour-data.onrender.com/destinations")
+    fetch("http://localhost:3005/destinations")
       .then((response) => response.json())
       .then((destinations) => setDestinations(destinations));
   }, []);
@@ -20,7 +20,7 @@ function DestinationsList() {
     const destinationToUpdate = destinations.find((destination) => destination.id === id);
     const updatedDestination = {...destinationToUpdate, likes: destinationToUpdate.likes + 1};
 
-    fetch(`https://project-adventour-data.onrender.com/destinations${id}`, {
+    fetch(`http://localhost:3005/destinations/${id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',

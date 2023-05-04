@@ -52,6 +52,9 @@ position: relative;
         padding: 0 1.5rem;
         background-color: transparent;
 }
+#hero .content .search .container:nth-child(1) {
+      padding-top: 1.5rem;
+}
 #hero .content .search .container label {
           font-size: 1.1rem;
           color: black;
@@ -62,13 +65,13 @@ position: relative;
           text-align: center;
           color: black;
 }
-#hero .content .search .container[type="date"] {
+#hero .content .search .container input[type="date"] {
             padding-left: 3rem;
 }
-#hero .content .search .container::placeholder {
+#hero .content .search .container input::placeholder {
             color: black;
 }
-#hero .content .search .container:focus {
+#hero .content .search .container input:focus {
             outline: none;
 }
 #hero .search button {

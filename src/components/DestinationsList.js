@@ -7,7 +7,7 @@ function DestinationsList() {
   const [searchWord, setSearchWord] = useState("");
 
   useEffect(() => {
-    fetch("http://localhost:3002/destinations")
+    fetch("http://localhost:3000/destinations")
       .then((response) => response.json())
       .then((destinations) => setDestinations(destinations));
   }, []);

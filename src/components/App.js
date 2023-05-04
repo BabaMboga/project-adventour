@@ -24,7 +24,7 @@ function App() {
           <Route path="/accommodations" component={AccommodationsList} />
           <Route path="/destinations" component={DestinationsList} />
           <Route path="/restaurants" component={RestaurantsList} />
-        </Switch>
+        </Switch> 
         <About />
         <Services />
         <Recommend />

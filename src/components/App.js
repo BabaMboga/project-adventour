@@ -39,7 +39,7 @@ function App() {
         
         <Footer />
         <ScrollToTop />
-        </BrowserRouter>
+        
       </div>
     </BrowserRouter>
   );

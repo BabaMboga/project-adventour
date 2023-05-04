@@ -15,8 +15,7 @@ import Login from "./Login";
 
 function App() {
   return (
-    
-      <div>
+    <div>
         {/* <ScrollToTop /> */}
         <BrowserRouter>
         <NavBar />
@@ -33,8 +32,7 @@ function App() {
         <Footer />
         </BrowserRouter>
       </div>
-    
-  );
+  )
 }
 
 export default App;

@@ -43,4 +43,4 @@ function AccomodationsList() {
   );
 }
 
-export default AccommodationsList;
+export default AccommodationItems;

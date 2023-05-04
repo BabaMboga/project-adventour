@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import ScrollToTop from "./ScrollToTop";
+// import ScrollToTop from "./ScrollToTop";
 import NavBar from "./NavBar";
 import About from "./About";
 import Services from "./Services";
@@ -21,12 +21,13 @@ function App() {
       <NavBar />
       <About />
       <Services />
+      <AccommodationsList />
       <Recommend />
       <Testimonials />
       <Footer />
-      <AccommodationsList />
+     
       <RestaurantsList />
-      {/* <DestinationsList destinations={destinations}/> */}
+      <DestinationsList/>
     </div>
   );
 }

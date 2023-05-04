@@ -1,21 +1,19 @@
-.container{
+/* .container{
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
   font-family: Arial, sans-serif;
   font-size: 14px;
- 
   color: #333;
   background-color: #fff;
   border-radius: 3px;
   border: 1px solid #ccc;
- 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-self: center;
-}
+} */
 
 .tittle {
   text-align: center;

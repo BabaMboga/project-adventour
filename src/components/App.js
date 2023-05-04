@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import "./App.css";
 // import ScrollToTop from "./ScrollToTop";
 import NavBar from "./NavBar";
@@ -14,7 +14,7 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <Router>
+    
       <div>
         {/* <ScrollToTop /> */}
         <NavBar />
@@ -30,7 +30,7 @@ function App() {
         <Testimonials />
         <Footer />
       </div>
-    </Router>
+    
   );
 }
 

@@ -16,10 +16,10 @@ function Footer() {
 
   
     <ul className='socialLinks'></ul>
-      <a href="https://www.facebook.com/search/top?q=tk%20adventures"><img src="./Images/facebook.jpeg" alt="FB" /></a>
-      <a href="https://twitter.com/TKAdventure"><img src="./Images/twitter.jpeg" alt="twit" /></a>
-      <a href="https://www.instagram.com/tkadventures254/"><img src="./Images/instagram.jpeg" alt="insta" /></a>
-      <a href="https://www.myglobalviewpoint.com/adventure-quotes/"><img src="./Images/whatsapp.jpeg" alt="APP" /></a>
+      <a href="https://www.facebook.com/search/top?q=tk%20adventures">FB</a>
+      <a href="https://twitter.com/TKAdventure">TWIT</a>
+      <a href="https://www.instagram.com/tkadventures254/">INSTA</a>
+      <a href="https://www.myglobalviewpoint.com/adventure-quotes/">APP</a>
     </footer>
   )
 }

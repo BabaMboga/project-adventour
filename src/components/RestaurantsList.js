@@ -31,7 +31,10 @@ function RestaurantsList() {
           src="https://static.wixstatic.com/media/4b855c29f0fa4015b5e1adfda7e53fde.jpg/v1/fill/w_636,h_590,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4b855c29f0fa4015b5e1adfda7e53fde.jpg"
           alt=""
         />
+      </div>
+      <div className="heading">
         <h2> Restaurants around town</h2>
+      </div>
         <div className="cards">
         <main>
           <SearchBar onSearch={handleSearch} />
@@ -44,7 +47,6 @@ function RestaurantsList() {
           ))}
         </main>
         </div>
-      </div>
     </div>
   );
 }

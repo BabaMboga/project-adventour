@@ -23,9 +23,9 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        {/* <ScrollToTop /> */}
+        
 
-        <NavBar isLoggedIn={isLoggedIn} handleLogout={handleLogout} />
+        {isLoggedIn && <NavBar isLoggedIn={isLoggedIn} handleLogout={handleLogout} />}
         {!isLoggedIn ? (<Login handleLogin={handleLogin} />
         ) : (
           <Routes>
@@ -38,7 +38,7 @@ function App() {
         )}
         
         <Footer />
-        <ScrollToTop />
+        {isLoggedIn && <ScrollToTop />}
         
       </div>
     </BrowserRouter>

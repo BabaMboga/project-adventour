@@ -1,30 +1,27 @@
-.container{
+ .container{
     margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.container,h1{
-    color: #585252;
+    padding: 4rem;
+    border-radius: 0.5rem;
+
+} 
+.tittle h1{
     font-size: 1.2em;
     font-weight: bold;
+    margin-bottom: 1rem;
+
     }
 .restaurants-list,img{
     max-width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    }
-.restaurants-list h2{
-    font-size: 1.2em;
-    color: #7b6b6b;
-}
-.cards img{
-    max-width: 100%;
-    height: auto;
-    width: auto;
     
-}
+    }
+
+.cards{
+    max-width: 700%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+} 

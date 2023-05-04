@@ -8,11 +8,15 @@ This is a web app that is basically for travelling and adventure purposes. Our w
 This project was created and is sole property of Ayim William, Augustine Mwangi, Tamunotonye Briggs and Edwin Aloo
 
 ## Description
-Advetour traveling company is a business that provides travel-related services to customers, such as booking transportation, accommodations, tours, and activities. The company can offer a wide range of travel services, including flights, trains, buses, car rentals, and cruise packages.
+Advetour is an application that provides travel-related information to customers acting like an easy access tour guide that tells you where to go, what to see and where to eat. It offers the user a chance to plan their trips at moments notice without having to access too maney materials for the perfect site. We here at Adventour not only want you to have a good time but we like you to also discover beautiful locations that bigger similar service providers usually overlook. We value quality and our clients wanting their trips to be memorable.
 
-Adventour traveling company can specialize in different types of travel, such as leisure travel, business travel, adventure travel, or luxury travel. They may also cater to different types of customers, such as families, solo travelers, groups, or seniors.
+Adventour iterates and fetches three seperate lists of data from the API and shows them as pop cards on each seperate page.
 
-To ensure a seamless travel experience for their customers, Adventour traveling company typically employs a team of travel agents who can assist customers in planning and booking their trips. These agents can provide expert advice on travel destinations, accommodations, and activities, as well as help customers with travel arrangements, such as visa applications, travel insurance, and flight bookings.
+The app also provides client-side routing.
+
+The user is able to log in to access varius components via conditional rendering.
+
+The user is able to add a like on a destination they enjoyed visiting which in turn updates on the UI
 
 ## Demo
 
@@ -42,6 +46,16 @@ Use the link provided to navigate to the Find Advetour ("")
 
 This program is built with reactjs using the visual code environment.
 It also has db.json file which contains the data we are going to use to populate the cards.
+
+## Support and Contact Details
+
+For any issues please email any of us on any of the below emails:
+
+odhisayim@gmail.com
+
+## License
+
+Apache License 2.0
 
 
 

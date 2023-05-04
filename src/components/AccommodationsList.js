@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import AccommodationsItem from "./AccommodationsItem";
 import SearchBar from "./SearchBar";
 

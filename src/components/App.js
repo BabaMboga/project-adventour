@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 // import ScrollToTop from "./ScrollToTop";
 import NavBar from "./NavBar";
@@ -18,18 +18,20 @@ function App() {
     
       <div>
         {/* <ScrollToTop /> */}
+        <BrowserRouter>
         <NavBar />
-        <Switch>
+       <Routes>
           <Route exact path="/" component={About} />
           <Route path="/accommodations" component={AccommodationsList} />
           <Route path="/destinations" component={DestinationsList} />
           <Route path="/restaurants" component={RestaurantsList} />
-        </Switch>
+        </Routes>
         <About />
         <Services />
         <Recommend />
         <Testimonials />
         <Footer />
+        </BrowserRouter>
       </div>
     
   );

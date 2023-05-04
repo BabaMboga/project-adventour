@@ -16,6 +16,30 @@ function DestinationsList() {
     setSearchWord(word);
   };
 
+  const handleLike = (id) => {
+    const destinationToUpdate = destinations.find((destination) => destination.id === id);
+    const updatedDestination = {...destinationToUpdate, likes: destinationToUpdate.likes + 1};
+
+    fetch(`http://localhost:3000/destinations/${id}`, {
+      method: 'PUT',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(updatedDestination),
+    })
+    .then(response => response.json())
+    .then(updatedDestination => {
+      const updatedDestinations = destinations.map((destination) => {
+        if (destination.id === id) {
+          return updatedDestination;
+        } else {
+          return destination;
+        }
+      });
+      setDestinations(updatedDestinations)
+    })
+  }
+
   const filteredDestinations = destinations.filter((destination) => {
     return destination.location
       .toLowerCase()

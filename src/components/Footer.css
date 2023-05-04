@@ -12,11 +12,11 @@ display: flex;
 }
 #footer ul li a{
         text-decoration: none;
-        color: rgb(253, 247, 247);
+        color: black;
         transition: 0.3s ease-in-out;
 }
 #footer span{
-  color: rgb(253, 247, 247);
+  color: black;
 }
 #footer ul li a:hover {
     color: rgb(79, 47, 15);

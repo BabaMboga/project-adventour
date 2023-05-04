@@ -1,6 +1,6 @@
 import React from "react";
 
-function DestinationsItem({ image, name, location, description, likes, onLike }) {
+function DestinationsItem({id, image, name, location, description, likes, onLike }) {
 
   const handleLike = () => {
     onLike(id);

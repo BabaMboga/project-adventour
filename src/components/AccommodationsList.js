@@ -36,6 +36,7 @@ function AccommodationsList() {
               image={accommodation.image}
               name={accommodation.name}
               location={accommodation.location}
+              
             />
           ))}
         </main>

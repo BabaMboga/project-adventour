@@ -1,12 +1,13 @@
 import React from 'react';
 import DestinationsItem from './DestinationsItem';
+import SearchBar from './SearchBar';
 
 function DestinationsList({destinations}) {
   const [destinations, setDestinations] = useState([]);
   const [searchWord, setSearchWord] = useState('');
   
   useEffect(() => {
-    fetch('')
+    fetch('http://localhost:3000/destinations')
     .then (response => response.json())
     .then (destinations => setDestinations(destinations));
   }, [])
@@ -23,7 +24,8 @@ function DestinationsList({destinations}) {
     <div className="destinations-list">
         <h1>Your Destination Awaits</h1>
         <main>
-            {destinations.map((destination) => (
+        <SearchBar onSearch={handleSearch}/>
+            {filteredDestinations.map((destination) => (
                 <DestinationsItem 
                     key={destination.id}
                     image={destination.image}

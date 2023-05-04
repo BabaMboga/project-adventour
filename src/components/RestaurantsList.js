@@ -1,5 +1,6 @@
 import React from 'react'
-import DestinationsItem from './DestinationsItem';
+import SearchBar from './SearchBar';
+import RestaurantsItem from './RestaurantsItem';
 
 function RestaurantsList({restaurants}) {
     const [restaurants, setRestaurants] = useState([]);
@@ -8,7 +9,7 @@ function RestaurantsList({restaurants}) {
   
 
     useEffect(() => {
-        fetch('http://localhost:4000/restaurants')
+        fetch('http://localhost:3000/restaurants')
         .then (response => response.json())
         .then(restaurants => setRestaurants(restaurants));
           
@@ -31,8 +32,9 @@ function RestaurantsList({restaurants}) {
                 <img src="https://static.wixstatic.com/media/4b855c29f0fa4015b5e1adfda7e53fde.jpg/v1/fill/w_636,h_590,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4b855c29f0fa4015b5e1adfda7e53fde.jpg" alt="" />
                 <h2> Restaurants around town</h2>
                 <main>
-                    {restaurants.map((restaurant) => (
-                        <DestinationsItem 
+                <SearchBar onSearch={handleSearch}/>
+                    {filteredRestaurants.map((restaurant) => (
+                        <RestaurantsItem 
                             key={restaurant.id}
                             image={restaurant.image}
                             location={restaurant.location}

@@ -19,7 +19,7 @@ function App() {
     <div>     
       {/* <ScrollToTop /> */}
       <NavBar />
-      {/* <SearchBar onSearch={handleSearch}/> */}
+      
       <Hero />
       <About />
       <Recommend />

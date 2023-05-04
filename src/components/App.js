@@ -15,24 +15,20 @@ import Login from "./Login";
 
 function App() {
   return (
-    
-      <div>
-        {/* <ScrollToTop /> */}
-        <NavBar />
-        <Switch>
-          <Route exact path="/" component={About} />
-          <Route path="/accommodations" component={AccommodationsList} />
-          <Route path="/destinations" component={DestinationsList} />
-          <Route path="/restaurants" component={RestaurantsList} />
-        </Switch>
-        <About />
-        <Services />
-        <Recommend />
-        <Testimonials />
-        <Footer />
-      </div>
-    
-  );
+    <div>     
+      {/* <ScrollToTop /> */}
+      <Login />
+      <NavBar />
+      <About />
+      <Services />
+      <Recommend />
+      <Testimonials />
+      <AccommodationsList />
+      <RestaurantsList />
+      <DestinationsList/>
+      <Footer />
+    </div>
+  )
 }
 
 export default App;

@@ -22,13 +22,13 @@ const Recommend = () => {
         "open": "Open everyday of the week",
         "title": "Bomas of Kenya",
         "subTitle": "Experience the rich diversity of Kenya's culture  via daily cultural performances and a variety of traditional artifacts and structures.",
-        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fkenyaholopenays.travel%2Fthe-bomas-of-kenya%2F&psig=AOvVaw2bhYSCEJUWSqx2WOFDJK5i&ust=1683109961769000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCMj4sbC31v4CFQAAAAAdAAAAABAD"
+        "image": "https://i.pinimg.com/564x/a0/45/66/a04566962f2f3f1858eb59f34e83a05b.jpg"
     },
     {
         "open": "Open everyday of the week",
-        "title": "Nairobi Gallery",
+        "title": "Nairobi Art Gallery",
         "subTitle": "A fantastic little museum located at the heart of Nairobi that is dedicated to showcasing African art in its full beauty.",
-        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fmuseums.or.ke%2Fnairobi-gallery%2F&psig=AOvVaw0wltPtWuvCI_bmRtLYHjle&ust=1683110190218000&source=images&cd=vfe&ved=0CA4QjRxqFwoTCMjBnZ641v4CFQAAAAAdAAAAABAD"
+        "image": "https://i.pinimg.com/564x/58/37/e7/5837e7b78183c837cb37b9bbca27653f.jpg"
     },
     {
         "open": "Open Monday - Saturday",
@@ -40,7 +40,7 @@ const Recommend = () => {
         "open": "Open everyday of the week",
         "title": "The Lord Erroll",
         "subTitle": "Fine dining experiences in Nairobi do not come any better than this with a theme of the early 1900s, there is nothing not to love.",
-        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lord-erroll.com%2Fgallery&psig=AOvVaw2ahEUQlYlXmbVG5HGYDaJq&ust=1683110927238000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLCkqvm61v4CFQAAAAAdAAAAABAE"
+        "image": "https://i.pinimg.com/564x/9b/ad/b7/9badb72d67a8910649dfb5a890a61141.jpg"
     }
 ]
 

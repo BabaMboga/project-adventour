@@ -12,9 +12,16 @@ function Login({handleLogin}) {
   return (
     <div className='Row'>
         <form onSubmit={handleSubmit}>
+          <h1>LOG IN FORM</h1>
+          <div className='form'>
             <input type="text" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} required/>
+            <br />
             <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required/>
+          </div>
+            <br />
+          <div className='btn'>
             <button type="submit">LOGIN</button>
+          </div>
         </form>
     </div>
   )

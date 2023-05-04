@@ -1,8 +1,9 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-// import ScrollToTop from "./ScrollToTop";
+import ScrollToTop from "./ScrollToTop";
 import NavBar from "./NavBar";
+import Home from "./Home";
 import AccommodationsList from "./AccommodationsList";
 import DestinationsList from "./DestinationsList";
 import RestaurantsList from "./RestaurantsList";
@@ -37,6 +38,8 @@ function App() {
         )}
         
         <Footer />
+        <ScrollToTop />
+        </BrowserRouter>
       </div>
     </BrowserRouter>
   );

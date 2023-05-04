@@ -15,24 +15,13 @@
   .restaurants-list {
     display: flex;
     flex-direction: column;
-    align-items: center;
-  }
-  /* img {
+    
+    }
+
+.cards{
+    max-width: 700%;
+    height: 100%;
     width: 100%;
-    max-width: 600px;
-    height: auto;
-    margin-bottom: 20px;
-  } */
-  h2 {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  .cards {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  main {
-    width: 100%;
-  }
+    
+} 

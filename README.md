@@ -49,9 +49,6 @@ It also has db.json file which contains the data we are going to use to populate
 For any issues please email any of us on any of the below emails:
 
 odhisayim@gmail.com
-alooedwin94@gmail.com
-trenatto82@gmail.com
-augustinemwangi04@gmail.com
 
 ## License
 

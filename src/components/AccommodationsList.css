@@ -1,57 +1,60 @@
 .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  h1 {
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .accomodations-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  main {
-    width: 100%;
-  }
-  
-  /* Style for the search bar */
-  input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    margin-bottom: 10px;
-  }
-  
-  /* Style for the accommodations items */
-  .accommodation-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-  
-  .accommodation-image {
-    width: 100px;
-    height: 100px;
-    margin-right: 10px;
-  }
-  
-  .accommodation-details {
-    flex: 1;
-  }
-  
-  .accommodation-name {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .accommodation-location {
-    font-size: 14px;
-    color: #888;
-  }
-  
+  max-width: 8000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 29px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.accomodations-list {
+  background-color: hsl(0, 20%, 95%);
+  border-radius: 8px;
+  padding: 50px;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+/* SearchBar Component */
+.search-bar {
+  margin-bottom: 100px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 100px;
+  font-size: 20px;
+  border-radius: 40px;
+  border: 10px solid hsl(0, 6%, 85%);
+}
+
+/* AccommodationsItem Component */
+.accommodation-item {
+  background-color: hsl(258, 19%, 90%);
+  border-radius: 80px;
+  padding: 100px;
+}
+
+.accommodation-item img {
+  width: 100%;
+  border-radius: 40px;
+  margin-bottom: 100px;
+}
+
+.accommodation-item h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.accommodation-item p {
+  font-size: 40px;
+  margin-bottom: 50px;
+}

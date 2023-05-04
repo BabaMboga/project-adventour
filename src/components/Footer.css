@@ -5,26 +5,6 @@ display: flex;
   border-radius: 0.5rem;
   padding: 2.5rem;
 }
-#footer ul {
-    display: flex;
-    list-style-type: none;
-    gap: 2rem;
-}
-#footer ul li a{
-        text-decoration: none;
-        color: black;
-        transition: 0.3s ease-in-out;
-}
-#footer span{
-  color: black;
-}
-#footer ul li a:hover {
-    color: rgb(79, 47, 15);
-}
-#footer ul .socialLinks a {
-        font-size: 1.3rem;
-        transition: 0.3s ease-in-out;
-}
-#footer ul .socialLinks a:hover {
-          color: rgb(79, 47, 15);
+#footer div{
+  text-align: center;
 }

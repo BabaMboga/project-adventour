@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./NavBar.css";
 import Adventour from "../Images/Adventour.jpg";
 
@@ -19,24 +19,24 @@ const NavBar = ({ isLoggedIn, handleLogout }) => {
         </div>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <Link to="/destinations">Event Destinations</Link>
+            <NavLink to="/destinations">Event Destinations</NavLink>
           </li>
           <li>
-            <Link to="/restaurants">Where To Eat</Link>
+            <NavLink to="/restaurants">Where To Eat</NavLink>
           </li>
           <li>
-            <Link to="/accommodations">Where To Stay</Link>
+            <NavLink to="/accomodations">Where To Stay</NavLink>
           </li>
         </ul>
         {isLoggedIn ? (
           <button onClick={onLogout}>Logout</button>
         ) : (
-          <Link to="/login">
+          <NavLink to="/login">
             <button>login</button>
-          </Link>
+          </NavLink>
         )}
       </div>
     </>

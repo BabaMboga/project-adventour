@@ -27,6 +27,9 @@
         font-size: 1.2rem;
         transition: 0.1s ease-in-out;
       }
+      .Nav ul li a:active {
+        color: rgb(79, 47, 15);
+      }
         .Nav ul li a:hover {
           color: rgb(79, 47, 15);
         }
@@ -46,25 +49,3 @@
     text-transform: uppercase;
     transition: 0.3s ease-in-out;
   }
-    .Nav button:hover {
-      background-color: rgb(79, 47, 15);
-    }
-  @media screen and (min-width: 280px) and (max-width: 1080px) {
-    .brand {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-    }
-}
-  @media screen and (min-width: 280px) and (max-width: 1080px) {
-    .brand .toggle {
-        display: block;
-      }
-    ul {
-      display: none;
-    }
-    button {
-      display: none;
-    }
-}

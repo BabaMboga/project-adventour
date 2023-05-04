@@ -1,0 +1,20 @@
+.destinations-list img{
+    border-radius: 2rem;
+    width: 50%;
+}
+.destinations-list{
+    text-align: center;
+}
+.destinations-list button{
+    width: 20%;
+    background-color: rgb(135, 95, 55);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.destinations-list button:hover {
+    background-color: rgb(79, 47, 15);
+  }

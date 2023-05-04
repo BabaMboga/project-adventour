@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import DestinationsItem from "./DestinationsItem";
 import SearchBar from "./SearchBar";
+import './DestinationList.css'
 
 function DestinationsList() {
   const [destinations, setDestinations] = useState([]);
@@ -20,7 +21,7 @@ function DestinationsList() {
     const destinationToUpdate = destinations.find((destination) => destination.id === id);
     const updatedDestination = {...destinationToUpdate, likes: destinationToUpdate.likes + 1};
 
-    fetch(`https://project-adventour-data.onrender.com/destinations${id}`, {
+    fetch(`https://project-adventour-data.onrender.com/destinations/${id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json',

@@ -1,22 +1,87 @@
-#services{
-  padding: 5rem 0;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
+#hero{
+position: relative;
+  margin-top: 2rem;
+  width: 100%;
+  height: 100%;
 }
-#services .service {
+#hero .background {
+    height: 100%;
+}
+#hero .background img {
+      width: 100%;
+      filter: brightness(60%);
+      border-radius: 1rem;
+}
+#hero .content {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    text-align: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
-    padding: 2rem;
-    background-color: wheat;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#hero .content .title {
+      color: white;
+}
+#hero .content .title h1 {
+        font-size: 3rem;
+        letter-spacing: 0.2rem;
+}
+#hero .content .title p {
+        text-align: center;
+        padding: 0 30vw;
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+}
+#hero .content .search {
+      display: flex;
+      background-color: wheat;
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+}
+#hero .content .search .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 1.5rem;
+        background-color: transparent;
+}
+#hero .content .search .container label {
+          font-size: 1.1rem;
+          color: black;
+}
+#hero .content .search .container input {
+          background-color: transparent;
+          border: none;
+          text-align: center;
+          color: black;
+}
+#hero .content .search .container[type="date"] {
+            padding-left: 3rem;
+}
+#hero .content .search .container::placeholder {
+            color: black;
+}
+#hero .content .search .container:focus {
+            outline: none;
+}
+#hero .search button {
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+    border: none;
+    color: white;
+    background-color: rgb(135, 95, 55);
+    font-size: 1.1rem;
+    text-transform: uppercase;
     transition: 0.3s ease-in-out;
 }
-#services .service:hover {
-    transform: translateX(0.4rem) translateY(-1rem);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-#services .service .icon img {
-    height: 2.4rem;
+#hero .search button:hover {
+      background-color: rgb(79, 47, 15);
 }

@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import './App.css';
 import ScrollToTop from "./ScrollToTop";
 import NavBar from "./NavBar";
-import Hero from "./Hero";
 import About from "./About";
+import Services from "./Services";
 import Recommend from "./Recommend";
 import Testimonials from "./Testimonials";
 import AccommodationsList from "./AccommodationsList"
@@ -64,8 +64,8 @@ function App() {
       {/* <ScrollToTop /> */}
       <NavBar />
       {/* <SearchBar onSearch={handleSearch}/> */}
-      <Hero />
       <About />
+      <Services />
       <Recommend />
       <Testimonials />
       <AccommodationsList accomodations={filteredAccomodations}/>

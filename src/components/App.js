@@ -15,9 +15,9 @@ import Login from "./Login";
 
 function App() {
   return (
-    
-      <div>
+    <div>
         {/* <ScrollToTop /> */}
+        {/* <Login /> */}
         <NavBar />
         <Switch>
           <Route exact path="/" component={About} />
@@ -31,8 +31,7 @@ function App() {
         <Testimonials />
         <Footer />
       </div>
-    
-  );
+  )
 }
 
 export default App;

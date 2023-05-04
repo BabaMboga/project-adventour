@@ -22,26 +22,29 @@ function App() {
   };
   return (
     <BrowserRouter>
-      <div>
-        {/* <ScrollToTop /> */}
+    <div>
+      <Routes>
+        <Route
+          path="/*"
+          element={
+            isLoggedIn ? (
+              <>
+                <ScrollToTop />
+                <NavBar isLoggedIn={isLoggedIn} handleLogout={handleLogout} />
+              </>
+            ) : null
+          }
+        />
+        <Route exact path="/" element={<Home />} />
+        <Route path="/accommodations" element={<AccommodationsList />} />
+        <Route path="/destinations" element={<DestinationsList />} />
+        <Route path="/restaurants" element={<RestaurantsList />} />
+        <Route path="/login" element={<Login handleLogin={handleLogin} />} />
+      </Routes>
 
-        <NavBar isLoggedIn={isLoggedIn} handleLogout={handleLogout} />
-        {!isLoggedIn ? (<Login handleLogin={handleLogin} />
-        ) : (
-          <Routes>
-            <Route exact path="/" element={<Home/>} />
-            <Route path="/accommodations" element={<AccommodationsList/>} />
-            <Route path="/destinations" element={<DestinationsList/>} />
-            <Route path="/restaurants" element={<RestaurantsList/>} />
-            <Route path="/login" element={<Login/>} />
-          </Routes>
-        )}
-        
-        <Footer />
-        <ScrollToTop />
-        
-      </div>
-    </BrowserRouter>
+      <Footer />
+    </div>
+  </BrowserRouter>
   );
 }
 

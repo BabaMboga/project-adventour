@@ -1,7 +1,7 @@
 #footer{
 display: flex;
   justify-content: space-evenly;
-  background-color: #d0d8ff;
+  background-color: #916d3e;
   border-radius: 0.5rem;
   padding: 2.5rem;
 }
@@ -12,8 +12,11 @@ display: flex;
 }
 #footer ul li a{
         text-decoration: none;
-        color: black;
+        color: rgb(253, 247, 247);
         transition: 0.3s ease-in-out;
+}
+#footer span{
+  color: rgb(253, 247, 247);
 }
 #footer ul li a:hover {
     color: #302ce9;

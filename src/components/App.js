@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import './App.css';
 import ScrollToTop from "./ScrollToTop";
 import NavBar from "./NavBar";

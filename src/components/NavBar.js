@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './NavBar.css';
 import Adventour from '../Images/Adventour.jpg'
 
@@ -13,10 +14,10 @@ const NavBar = () => {
         <div className='toggle'></div>
     </div>
     <ul>
-        <li><a href='#'>Home</a></li>
-        <li><a href='#'>Event Destinations</a></li>
-        <li><a href='#'>Where To Eat</a></li>
-        <li><a href='#'>Where To Stay</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/destinations">Event Destinations</Link></li>
+        <li><Link to="/restaurants">Where To Eat</Link></li>
+        <li><Link to="/accomodations">Where To Stay</Link></li>
     </ul>
     <button>Connect</button>
     </div>

@@ -21,10 +21,10 @@ display: flex;
 #footer ul li a:hover {
     color: rgb(79, 47, 15);
 }
-#footer .socialLinks a {
+#footer ul .socialLinks a {
         font-size: 1.3rem;
         transition: 0.3s ease-in-out;
 }
-#footer .socialLinks a:hover {
+#footer ul .socialLinks a:hover {
           color: rgb(79, 47, 15);
 }

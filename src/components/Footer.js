@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css';
-import facebook from '../Images/facebook.jpeg'
+
 
 
 function Footer() {

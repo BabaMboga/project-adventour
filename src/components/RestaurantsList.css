@@ -22,3 +22,9 @@
     font-size: 1.2em;
     color: #7b6b6b;
 }
+.cards img{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    
+}

@@ -1,7 +1,7 @@
 # ADVENTOUR
 
 #### {Brief description of application}, {Date of current version}
-This MVP showcases a web app that is basically for travelling and adventure purposes. Our web application  links you up with beautiful gems you should visit while you are in Nairobi, where one can enjoy a good meal and ambience and eventually hotels where one can stay during their stay. (version 1.05.06.2023)
+This is a web app that is basically for travelling and adventure purposes. Our web application has many ways that it link you up with gems you should visit while you are in Nairobi, where one can enjoy a good meal and ambience and eventually hotels where one can stay during their stay. 
 
 #### By **{List of contributors}**
 
@@ -52,9 +52,6 @@ It also has db.json file which contains the data we are going to use to populate
 For any issues please email any of us on any of the below emails:
 
 odhisayim@gmail.com
-alooedwin94@gmail.com
-trenatto82@gmail.com
-augustinemwangi04@gmail.com
 
 ## License
 

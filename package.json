@@ -17,7 +17,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node index.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -43,14 +43,5 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BabaMboga/project-adventour.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/BabaMboga/project-adventour/issues"
-  },
-  "homepage": "https://github.com/BabaMboga/project-adventour#readme"
+  "license": "ISC"
 }

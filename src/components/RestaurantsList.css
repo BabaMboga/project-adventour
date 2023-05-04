@@ -1,14 +1,19 @@
 .container{
     margin: 0;
-    padding: 0;
+    padding: 4rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    font-style: italic;
+    background-color: whitesmoke;
+    color: brown;
 }
-.container,h1{
-    color: #585252;
+.tittle h1{
     font-size: 1.2em;
     font-weight: bold;
+    margin-bottom: 1rem;
+
     }
 .restaurants-list,img{
     max-width: 100%;
@@ -18,13 +23,11 @@
     align-items: center;
     justify-content: center;
     }
-.restaurants-list h2{
-    font-size: 1.2em;
-    color: #7b6b6b;
-}
-.cards img{
-    max-width: 100%;
-    height: auto;
-    width: auto;
-    
+
+.cards{
+    max-width: 700%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
 }

@@ -1,11 +1,11 @@
 # ADVENTOUR
 
 #### {Brief description of application}, {Date of current version}
-This is an web app that is basically for travelling and adventure purposes. Our web application has many ways that it link you up with good hotels around Nairobi and provide a good reception in ways like travelling services and trusted agencies.
+This is a web app that is basically for travelling and adventure purposes. Our web application has many ways that it link you up with gems you should visit while you are in Nairobi, where one can enjoy a good meal and ambience and eventually hotels where one can stay during their stay. 
 
 #### By **{List of contributors}**
 
-This project was created and is sole property of Ayim William, Augustine Mwangi, Tammmy Briggz and Edwin Alloh
+This project was created and is sole property of Ayim William, Augustine Mwangi, Tamunotonye Briggs and Edwin Aloo
 
 ## Description
 Advetour traveling company is a business that provides travel-related services to customers, such as booking transportation, accommodations, tours, and activities. The company can offer a wide range of travel services, including flights, trains, buses, car rentals, and cruise packages.
@@ -34,12 +34,13 @@ Use the link provided to navigate to the Find Advetour ("")
 6. On the visual studio code that has now opened, go to the the run tab and hit start debugging.
 7. Create a branch where you will make and add changes (git branch -b <branchname>)
 8. Add the changes (git add .)
-9. Commit changes (git commit -m "contributing changes")
+9. Commit changes (git commit -m "<add comment>")
 10. Push your changes (git push origin <branchname>)
+11. use npm start to run the site on your local host.
 
 ## Technologies Used
 
-This program is built with html, css and javascript using the visual code environment.
+This program is built with reactjs using the visual code environment.
 It also has db.json file which contains the data we are going to use to populate the cards.
 
 

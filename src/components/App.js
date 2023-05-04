@@ -29,11 +29,11 @@ function App() {
         {!isLoggedIn ? (<Login handleLogin={handleLogin} />
         ) : (
           <Routes>
-            <Route exact path="/" component={Home} />
-            <Route path="/accommodations" component={AccommodationsList} />
-            <Route path="/destinations" component={DestinationsList} />
-            <Route path="/restaurants" component={RestaurantsList} />
-            <Route path="/login" component={Login} />
+            <Route exact path="/" element={<Home/>} />
+            <Route path="/accommodations" element={<AccommodationsList/>} />
+            <Route path="/destinations" element={<DestinationsList/>} />
+            <Route path="/restaurants" element={<RestaurantsList/>} />
+            <Route path="/login" element={<Login/>} />
           </Routes>
         )}
         

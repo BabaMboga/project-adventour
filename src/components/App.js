@@ -37,7 +37,7 @@ function App() {
           </Routes>
         )}
         
-        <Footer />
+        {/* {isLoggedIn && <Footer />} */}
         {isLoggedIn && <ScrollToTop />}
         
       </div>

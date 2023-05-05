@@ -1,22 +1,27 @@
 .login{
     text-align: center;
+    border-radius: 2rem;
+    background-color: wheat;
+    padding: 2rem;
+    margin-top: 10rem;
 }
+
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 4px;
     box-sizing: border-box;
-  }
+}
 
 input[type=password], select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 1px solid black;
     border-radius: 4px;
     box-sizing: border-box;
   }
@@ -36,8 +41,3 @@ input[type=password], select {
     background-color: rgb(79, 47, 15);
   }
   
-.login {
-    border-radius: 2rem;
-    background-color: wheat;
-    padding: 2rem;
-  }

@@ -1,5 +1,6 @@
 import {React, useState} from 'react'
 import "./Login.css"
+import Adventour from "../Images/Adventour.jpg";
 
 function Login({handleLogin}) {
   const [username, setUsername] = useState('');
@@ -10,6 +11,10 @@ function Login({handleLogin}) {
     handleLogin();
   }
   return (
+    <>
+    <div className="container">
+            <img src={Adventour} alt="logo" />
+    </div>
     <div className='login'>
         <form onSubmit={handleSubmit}>
           <h1>LOG IN</h1>
@@ -23,6 +28,7 @@ function Login({handleLogin}) {
           </div>
         </form>
     </div>
+    </>
   )
 }
 

@@ -9,10 +9,9 @@ function DestinationsItem({id, image, name, location, description, likes, onLike
     <div className="destination-card">
       <img src={image} alt={name}></img>
       <h3>{name}</h3>
-      <small>{location}</small>
+      <small style={styles.italics}>{location}</small>
       <p id="destination-paragraph">{description}</p>
-      <span>{likes}</span>
-      <button onClick={handleLike}>Like</button>
+      <button onClick={handleLike}>{likes} Likes</button>
     </div>
   );
 }

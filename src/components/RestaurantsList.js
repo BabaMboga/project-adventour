@@ -40,9 +40,12 @@ function RestaurantsList() {
           <SearchBar onSearch={handleSearch} />
           {filteredRestaurants.map((restaurant) => (
             <RestaurantsItem
+            
               key={restaurant.id}
               image={restaurant.image}
               location={restaurant.location}
+              name={restaurant.name}
+
             />
           ))}
         </main>

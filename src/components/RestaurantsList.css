@@ -11,7 +11,7 @@
 
 .container .tittle h1 {
   font-size: 2.5rem;
-  color: brown;
+  color: rgb(79, 47, 15);
 }
 
 /* .restaurants-list {
@@ -22,7 +22,7 @@
 .container .restaurants-list img {
   max-width: 100%;
   height: 50%;
-  width: 100%;
+  border-radius: 1.5rem;
 }
 
 /* .heading {
@@ -33,7 +33,7 @@
 
 .container .heading h2 {
   font-size: 2rem;
-  color: brown;
+  color: rgb(79, 47, 15);
 }
 
 .container .cards {
@@ -42,7 +42,23 @@
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  background-color: brown;
+  background-color: wheat;
+  border-radius: 1.5rem;
+}
+
+.container .cards img {
+  width: 50%;
+  border-radius: .5rem;
+  padding: 1rem;
+  gap: 0.5rem;
+  background-color: wheat;
+  border-radius: 1rem;
+  transition: 0.3s ease-in-out;
+}
+
+.container .cards img:hover {
+  transform: translateX(0.4rem) translateY(-1rem);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .container .cards main {

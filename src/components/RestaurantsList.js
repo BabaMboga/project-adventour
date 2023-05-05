@@ -23,7 +23,7 @@ function RestaurantsList() {
 
   return (
     <div className="container">
-      <div className="tittle">
+      <div className="title">
       <h1>THE RESTAURANTS IN NAIROBI</h1>
       </div>
       <div className="restaurants-list">

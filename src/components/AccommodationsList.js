@@ -24,10 +24,10 @@ function AccommodationsList() {
   });
 
   return (
-    <div className="container">
+    <div className="accommodations-list">
       <h1>HOTELS TO STAY IN NAIROBI</h1>
       <br />
-      <div className="accommodations-list">
+      <div className="container">
         <SearchBar onSearch={handleSearch} />
         <main>
           {filteredAccommodations.map((accommodation) => (

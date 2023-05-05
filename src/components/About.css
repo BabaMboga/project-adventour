@@ -63,6 +63,9 @@ position: relative;
           text-align: center;
           color: black;
 }
+#hero .content .search .container input[type="text"] {
+      padding: 0rem;
+}
 #hero .content .search .container input[type="date"] {
             padding-left: 3rem;
 }

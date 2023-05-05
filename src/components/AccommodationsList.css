@@ -1,63 +1,60 @@
 .container {
-  max-width: 8000px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
+}
+
+/* .tittle {
   text-align: center;
+  margin-bottom: 30px;
+} */
+
+.container .tittle h1 {
+  font-size: 2.5rem;
+  color: rgb(79, 47, 15);
 }
 
-h1 {
-  font-size: 29px;
-  font-weight: bold;
-  margin-bottom: 20px;
+.container .restaurants-list img {
+  max-width: 100%;
+  height: 50%;
+  border-radius: 1.5rem;
 }
 
-.accomodations-list {
-  background-color: hsl(0, 20%, 95%);
-  border-radius: 8px;
-  padding: 50px;
+.container .heading h2 {
+  font-size: 2rem;
+  color: rgb(79, 47, 15);
 }
 
-.main {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 20px;
+.container .cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: wheat;
+  border-radius: 1.5rem;
 }
 
-/* SearchBar Component */
-.search-bar {
-  margin-bottom: 100px;
+.container .cards img {
+  width: 50%;
+  border-radius: .5rem;
+  padding: 1rem;
+  gap: 0.5rem;
+  background-color: wheat;
+  border-radius: 1rem;
+  transition: 0.3s ease-in-out;
 }
 
-.search-bar input {
-  width: 100%;
-  padding: 100px;
-  font-size: 20px;
-  border-radius: 40px;
-  border: 10px solid hsl(0, 6%, 85%);
+.container .cards img:hover {
+  transform: translateX(0.4rem) translateY(-1rem);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-/* AccommodationsItem Component */
-.accommodation-item {
-  background-color: hsl(258, 19%, 90%);
-  border-radius: 80px;
-  padding: 100px;
-}
-
-.accommodation-item img {
-  width: 100%;
-  height: auto;
-  max-height: 300px; /* Increase the max-height to adjust the image size */
-  border-radius: 40px;
-  margin-bottom: 100px;
-}
-
-.accommodation-item h2 {
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 50px;
-}
-
-.accommodation-item p {
-  font-size: 40px;
-  margin-bottom: 50px;
-}
+.container .cards main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 1200px;
+  margin-top: 1rem;
+  }
